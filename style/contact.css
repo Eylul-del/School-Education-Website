@@ -1,0 +1,246 @@
+:root{
+    --orange65: rgb(255, 141, 77);
+    --orange70: rgb(255, 153, 102);
+    --orange75: rgb(255, 165, 128);
+    --orange80: rgb(255, 190, 153);
+    --orange90: rgb(255, 222, 204);
+    --orange95: rgb(255, 239, 229);
+    --orange97: rgb(255, 245, 240);
+    --orange99: rgb(255, 252, 250);
+
+    --gray10: rgb(26, 26, 26);
+    --gray15: rgb(38, 38, 38);
+    --gray20: rgb(51, 51, 51);
+    --gray30: rgb(76, 76, 77);
+    --gray35: rgb(89, 89, 90);
+    --gray40: rgb(101, 101, 103);
+    --gray60: rgb(152, 152, 154);
+    --gray70: rgb(170, 179, 179);
+}
+
+.mainTitle{
+    width: 40% !important;
+}
+
+.mainTitle h2{
+    width: 100%;
+}
+
+main .contactAddresses{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+.contactAddresses .address{
+    width: 48%;
+    height: 55px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    color: var(--gray10);
+    font-size: 15px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--orange99);
+    border: 2px solid var(--gray10);
+}
+
+.address .icon{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background-color: var(--orange95);
+    border: 2px solid var(--gray10);
+}
+
+.contactForm{
+    height: 700px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 2px solid var(--gray10);
+    border-radius: 12px;
+    box-shadow: 4px 4px 0 var(--gray20);
+    background-color: white;
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: -30px;
+    left: 38%;
+    width: 30%;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.socialMedia .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 8px;
+    background-color: var(--orange90);
+    border: 2px solid var(--gray10);
+    width: 29%;
+    height: 80%;
+    cursor: pointer;
+}
+
+form{
+    width: 90%;
+    height: 600px;
+    margin: 50px auto 0;
+}
+
+form .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 120px;
+}
+
+.container{
+    width: 40%;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row .container *{
+    width: 100%;
+    height: 40px;
+    display: block;
+}
+
+.lastRow .container{
+    width: 82%;
+    height: 120px;
+    margin-top: 40px;
+}
+
+.lastRow .container textarea{
+    height: 100px;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid var(--gray10);
+}
+
+.container label{
+    color: var(--gray20);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container input{
+    height: 55px !important;
+    box-sizing: border-box;
+    padding: 22px;
+    border-radius: 8px;
+    background-color: var(--orange99);
+    border: 2px solid var(--gray10);
+}
+
+.container input::placeholder,
+.container textarea::placeholder{
+    color: var(--gray35);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.submitBtn{
+    margin: 20px auto;
+    width: 82% !important;
+    height: 50px;
+}
+
+.submitBtn button{
+    height: 50px !important;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    background-color: var(--orange75);
+}
+
+
+@media (max-width:420px) {
+    .contactAddresses{
+        width: 90%;
+        gap: 10px !important;
+    }
+
+    .contactAddresses .address{
+        width: 100%;
+        padding: 10px !important;
+    }
+
+    .address .icon{
+        height: 26px;
+        width: 26px;
+        font-size: 14px;
+        padding: 0 !important;
+    }
+
+    .contactForm{
+        height: 950px !important;
+    }
+
+    .contactForm .socialMedia{
+        width: 87%;
+        left: 20px;
+        height: 60px;
+    }
+
+    .socialMedia .icon{
+        width: 27%;
+    }
+
+    form{
+        margin-top: 80px;
+        height: 950px !important;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    form .row{
+        width: 100%;
+        height: 200px !important;
+        flex-wrap: wrap;
+        gap: 10px !important;
+        margin-top: -20px;
+    }
+
+    form .row .container{
+        width: 100%;
+    }
+
+    .lastRow{
+        margin-top: -70px !important;
+    }
+
+    .submitBtn{
+        margin-top: -90px !important;
+    }
+}

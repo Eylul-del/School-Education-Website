@@ -1,0 +1,408 @@
+:root{
+    --orange65: rgb(255, 141, 77);
+    --orange70: rgb(255, 153, 102);
+    --orange75: rgb(255, 165, 128);
+    --orange80: rgb(255, 190, 153);
+    --orange90: rgb(255, 222, 204);
+    --orange95: rgb(255, 239, 229);
+    --orange97: rgb(255, 245, 240);
+    --orange99: rgb(255, 252, 250);
+
+    --gray10: rgb(26, 26, 26);
+    --gray15: rgb(38, 38, 38);
+    --gray20: rgb(51, 51, 51);
+    --gray30: rgb(76, 76, 77);
+    --gray35: rgb(89, 89, 90);
+    --gray40: rgb(101, 101, 103);
+    --gray60: rgb(152, 152, 154);
+    --gray70: rgb(170, 179, 179);
+}
+
+main {
+    display: flex;
+    position: relative;
+    min-height: 380px;
+    margin-top: 50px;
+    border-radius: 12px;
+    background-color: white;
+    border: 2px solid var(--gray10);
+    box-shadow: 4px 4px 0 var(--gray15);
+}
+
+main .cornerImg{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.aboutMainContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    width: 90%;
+    height: 250px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.aboutMainContent .mainTitle{
+    width: 35%;
+    font-size: 20px;
+}
+
+.mainTitle .sub1{
+    width: fit-content !important;
+    padding: 3px 20px;
+}
+
+.aboutMainContent .description{
+    width: 530px;
+    color: var(--gray20);
+}
+
+.contentCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.contentCards .card{
+    height: 350px;
+    width: 43%;
+    box-sizing: border-box;
+    padding-left: 30px;
+    border: 2px solid var(--gray10);
+    border-radius: 12px;
+    box-shadow: 4px 4px 0px var(--gray15);
+    background-color: white;
+}
+
+.card .cardHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.card .cardHeader h3{
+    font-size: 30px;
+}
+
+.card .description{
+    width: 90%;
+    color: var(--gray20);
+}
+
+.awardsAndRecognition .sub2{
+    margin-top: 30px;
+}
+
+.allAwards {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 0;
+    width: 90%;
+}
+
+.allAwards .awardCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    width: 30%;
+    height: 350px;
+    box-sizing: border-box;
+    padding: 0px 20px 20px 40px;
+    border-radius: 12px;
+    border: 2px solid var(--gray10);
+    box-shadow: 4px 4px 0 var(--gray15);
+    background-color: white;
+}
+
+.awardCard .carIcon{
+    position: absolute;
+    top: -40px;
+    left: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.awardCard .cardTitle{
+    margin-top: 40px;
+}
+
+.awardCard .description{
+    color: var(--gray20);
+    height: 200px;
+}
+
+.allYears{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 40px 0;
+    border-radius: 12px;
+    border: 2px solid var(--gray10);
+    box-shadow: 4px 4px 0px var(--gray15);
+    background-color: white;
+
+}
+
+.year{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 80%;
+}
+
+.yearImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    box-sizing: border-box;
+    padding: 0px 20px;
+    border-radius: 20px;
+    border: 2px solid var(--gray10);
+    box-shadow: 4px 4px 0px var(--gray15);
+    background-color: var(--orange99);
+    width: 25%;
+    height: fit-content;
+}
+
+.yearImg img{
+    width: 50px;
+    height: 50px;
+}
+
+.yearImg h2{
+    font-size: 30px;
+}
+
+.year .description h3{
+    font-size: 25px;
+}
+
+.year .description p{
+    width: 90%;
+    font-size: 15px;
+    color: var(--gray20);
+}
+
+
+.ourTeam .sub2{
+    margin-top: 50px;
+}
+
+.membersCards{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    margin: 50px  auto 0;
+}
+
+.col{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.col .member{
+    height: 400px;
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    box-sizing: border-box;
+    padding: 35px;
+    border: 2px solid var(--gray10);
+    border-radius: 12px;
+    box-shadow: 4px 4px 0 var(--gray15);
+    background-color: white;
+}
+
+.member .profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile .name{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+}
+
+.name img{
+    width: 70px;
+    height: 70px;
+}
+
+.name h3{
+    font-size: 26px;
+}
+
+.member .description{
+    width: 97%;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 0 auto;
+    background-color: var(--orange95);
+    border: 2px solid var(--gray10);
+}
+
+.member .description h3{
+    font-size: 15px;
+}
+
+@media (max-width: 420px) {
+    main {
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: 650px !important;
+    padding: 0 !important;
+    gap: 0 !important;
+    margin-top: 20px !important;
+  }
+
+  .cornerImg img {
+    width: 160px;
+  }
+
+  section .title h2{
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .aboutMainContent {
+    height: auto !important;
+    gap: 0 !important;
+    margin: 80px auto 0;
+}
+
+  main .mainTitle {
+    width: 100% !important;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+    .aboutMainContent{
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .contentCards{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .contentCards .card{
+        width: 100%;
+    }
+
+    .card .cardImg{
+        width: 50px;
+    }
+
+    .cardImg img{
+        width: 75px;
+    }
+
+    .allAwards{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .awardCard{
+        margin-top: 40px;
+        width: 90% !important;
+    }
+
+    :is(.awardCard:first-child){
+        margin-top: -40px;
+    }
+
+    .allYears{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .year{
+        flex-direction: column;
+        gap: 10px;
+        text-align: left;
+        align-items: first baseline;
+    }
+
+    .yearImg{
+        width: 80%;
+    }
+
+    .year .description p,
+    .year .description h3{
+        padding-left: 10px;
+        text-align: left !important;
+    }
+
+    .ourTeam .sub2{
+        margin-top: 20px;
+    }
+
+    .membersCards{
+        flex-direction: column;
+        gap: 50px;
+        width: 90%;
+    }
+
+    .col{
+        width: 100%;
+        gap: 50px;
+        margin: 0 auto;
+    }
+
+    .member{
+        width: 100% !important;
+        height: auto !important;
+        padding: 20px !important;
+        gap: 50px !important;
+    }
+
+    .member .profile .name{
+        gap: 5px;
+    }
+
+    .member .profile .name h3{
+        font-size: 20px;
+    }
+    .member .profile .name img,
+    .member .profile .email{
+        width: 60px;
+        height: 60px;
+    }
+
+    .member .description{
+        width: 100% !important;
+    }
+}

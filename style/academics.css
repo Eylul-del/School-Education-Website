@@ -1,0 +1,267 @@
+:root{
+    --orange65: rgb(255, 141, 77);
+    --orange70: rgb(255, 153, 102);
+    --orange75: rgb(255, 165, 128);
+    --orange80: rgb(255, 190, 153);
+    --orange90: rgb(255, 222, 204);
+    --orange95: rgb(255, 239, 229);
+    --orange97: rgb(255, 245, 240);
+    --orange99: rgb(255, 252, 250);
+
+    --gray10: rgb(26, 26, 26);
+    --gray15: rgb(38, 38, 38);
+    --gray20: rgb(51, 51, 51);
+    --gray30: rgb(76, 76, 77);
+    --gray35: rgb(89, 89, 90);
+    --gray40: rgb(101, 101, 103);
+    --gray60: rgb(152, 152, 154);
+    --gray70: rgb(170, 179, 179);
+}
+
+.specialFeatures{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+}
+
+.sub1{
+    width: fit-content !important;
+    padding: 5px 15px !important;
+}
+
+.allFeatures,
+.allClasses{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin: 50px auto 0;
+    width: 80%;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.row .featureCard{
+    width: calc((100% - 60px) / 3);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    padding: 20px 20px 20px 40px;
+    border-radius: 12px;
+    border: 2px solid var(--gray10);
+    box-shadow: 4px 4px 0px var(--gray15);
+    background-color: white;
+}
+
+.featureCard .cardIcon{
+    position: absolute;
+    top: -30px;
+    left: 30px;
+    width: 60px;
+    height: 60px;
+}
+
+.featureCard .cardIcon img{
+    width: inherit !important;
+    height: inherit !important;
+}
+
+.allClasses .row .classCard{
+    height: 430px;
+    width: 30%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: white;
+    border: 2px solid var(--gray10);
+    box-shadow: 4px 4px 0px var(--gray15);
+}
+
+.backDiv{
+    position: absolute;
+    top: 0;
+    height: 270px !important;
+    width: 100px;
+    border: 2px solid var(--gray15);
+    border-top: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: var(--orange95);
+}
+
+.classCard .classImg{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 300px;
+    height: 220px;
+    z-index: 333;
+}
+
+.classCard .classImg img{
+    width: 300px;
+    height: 220px;
+    z-index: 333;
+}
+
+.classCard .className{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px !important;
+    height: 20px;
+}
+
+.classCard .description{
+    text-align: center;
+    font-size: 17px;
+    color: var(--gray20);
+}
+
+.rooms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: 300px;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-bottom: 35px;
+    margin: 200px auto 0;
+    position: relative;
+    border: 2px solid var(--gray10);
+    border-radius: 12px;
+    box-shadow: 4px 4px 0px var(--gray15);
+    background-color: white;
+}
+
+.rooms:first-child{
+    margin-top: 150px;
+}
+
+.roomsImgs{
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    width: 91%;
+    margin: 0 auto;
+    position: absolute;
+    top: -120px;
+}
+
+.roomsImgs img{
+    height: 100%;
+    width: 270px;
+}
+
+.roomType{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.roomType h3{
+    font-size: 25px;
+}
+
+.roomType p{
+    color: var(--gray20);
+}
+
+@media (max-width:420px) {
+    section{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center !important;
+    }
+
+    .allFeatures,
+    .allClasses{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto !important;
+    }
+
+    .row{
+        flex-direction: column;
+        width: 100%;
+        gap: 70px;
+        margin: 0 auto !important;
+    }
+
+    .row .featureCard,
+    .row .classCard{
+        width: 100% !important;
+    }
+
+    .featureCard .description{
+        text-align: left;
+    }
+
+    .allClasses{
+        width: 90%;
+    }
+
+    .classCard{
+        height: 390px !important;
+        justify-content: space-around;
+    }
+
+    .backDiv{
+        height: 220px !important;
+    }
+
+    .row .classCard .classImg{
+        left: 40px;
+        top: 25px;
+        width: 250px !important;
+        height: 180px !important;
+    }
+
+    .row .classCard .classImg img{
+        width: 250px !important;
+        height: 180px !important;
+    }
+
+    .classCard .className,
+    .classCard .description{
+        margin-top: -20px !important;
+    } 
+
+    .rooms{
+        width: 100%;
+        height: 350px;
+        padding-bottom: 20px;
+    }
+
+    .rooms .roomsImgs{
+        width: 90% !important;
+        width: fit-content;
+    }
+
+    .roomsImgs img{
+        width: 100%;
+    }
+    
+    .otherImg{
+        display: none;
+    }
+}
