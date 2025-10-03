@@ -361,13 +361,23 @@ main .cornerImg{
     }
 
     .yearImg{
-        width: 80%;
+        width: 70%;
+        height: 70px;
+    }
+
+    .yearImg img{
+        height: 45px;
+        width: 45px;
     }
 
     .year .description p,
     .year .description h3{
         padding-left: 10px;
         text-align: left !important;
+    }
+
+    .year .description h3{
+        font-size: 20px;
     }
 
     .ourTeam .sub2{
@@ -394,16 +404,16 @@ main .cornerImg{
     }
 
     .member .profile .name{
-        gap: 5px;
+        gap: 10px;
     }
 
     .member .profile .name h3{
         font-size: 20px;
     }
     .member .profile .name img,
-    .member .profile .email{
-        width: 60px;
-        height: 60px;
+    .member .profile .email img{
+        width: 50px;
+        height: 50px;
     }
 
     .member .description{

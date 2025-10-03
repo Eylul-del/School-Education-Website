@@ -833,7 +833,7 @@ section{
         width: 45px;
         height: 45px;
         bottom: 30px;
-        right: 30px;
+        right: 20px;
     }
 
     main{
@@ -908,7 +908,7 @@ section{
     }
 
     .ourBenefits{
-        height: 350svh;
+        height: 430svh;
     }
 
     .sub1{
@@ -929,7 +929,6 @@ section{
     .ourBenefits{
         margin: 0px !important;
         margin-top: 100px !important;
-        margin-bottom: 800px !important;
     }
 
     .allBenefits{
@@ -943,7 +942,7 @@ section{
 
     .ourTestimonials{
         height: auto !important;
-        margin-top: -160px !important;
+        margin-top: 50px !important;
     }
 
     .allTestimonials{
@@ -1027,10 +1026,12 @@ section{
     }
 
     footer{
-        height: 950px !important;
+        height: 870px !important;
         width: 95% !important;
         padding: 0 !important;
         display: flex;
+        justify-content: center !important;
+        gap: 20px;
         flex-direction: column;
         align-items: center;
     }
@@ -1042,7 +1043,8 @@ section{
     }
 
     .footerLinks{
-        height: 300px !important;
+        height: 240px !important;
+        max-height: 260px;
         gap: 0 !important;
     }
 
@@ -1056,7 +1058,6 @@ section{
     .footerBottom {
         height: 75px;
         width: 350px !important;
-        margin-top: -80px;
         padding: 10px !important;
         gap: 30px !important;
         flex-direction: column;
@@ -1066,6 +1067,6 @@ section{
     }
 
     .copyright{
-        margin-top: 20px !important;
+        width: 70%;
     }
 }
