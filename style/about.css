@@ -284,8 +284,12 @@ main .cornerImg{
     margin-top: 20px !important;
   }
 
+  .cornerImg{
+    width: 35%;
+  }
+
   .cornerImg img {
-    width: 160px;
+    width: 100% !important;
   }
 
   section .title h2{

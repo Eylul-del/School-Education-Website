@@ -178,10 +178,14 @@ nav .contactBtn{
     cursor: pointer;
     opacity: 0;
     pointer-events: none;
-    transition: opacity 0.3s ease, transform 0.3s ease;
+    transition: all 0.3s ease;
     animation: backToTop 2s infinite ease-in-out;
     z-index: 3333;
     border-radius: 12px;
+    background-color: var(--orange70);
+}
+
+.backToTop:hover{
     background-color: var(--orange65);
 }
 
@@ -201,34 +205,6 @@ nav .contactBtn{
   50%  { transform: translateY(0px); }
   100% { transform: translateY(10px); }
 }
-
-/*
-.backToTop{
-    padding: 10px;
-    border-radius: 50%;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    
-}
-
-.backToTop button{
-    font-size: 25px;
-    border: none;
-    color: rgba(21, 7, 7, 0.9);
-    background-color: transparent;
-}
-
-
-
-
-@keyframes backToTop {
-  0%   { transform: translateY(10px); }
-  50%  { transform: translateY(0px); }
-  100% { transform: translateY(10px); }
-}
-
-*/
 
 main{
     display: flex;
@@ -850,6 +826,16 @@ section{
         height: 35px;
     }
 
+    .backToTop{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45px;
+        height: 45px;
+        bottom: 30px;
+        right: 30px;
+    }
+
     main{
         width: 98% !important;
         height: 1100px;
@@ -931,7 +917,7 @@ section{
     }
 
     section .title{
-        font-size: 30px;
+        font-size: 25px;
     }
 
     section .sub2{
@@ -957,6 +943,7 @@ section{
 
     .ourTestimonials{
         height: auto !important;
+        margin-top: -160px !important;
     }
 
     .allTestimonials{
