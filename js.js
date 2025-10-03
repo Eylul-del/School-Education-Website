@@ -34,18 +34,8 @@ window.toggleNavList = function () {
 };
 
 
-// let card = document.querySelectorAll(".card");
 
-// document.querySelectorAll(".card .answerBtn").forEach(btn => {
-//   btn.addEventListener("click", function(){
-//     let card = btn.closest(".card");
-//     let answer = card.querySelector(".answer");
-//     answer.classList.toggle("show");
-//     card.style.backgroundColor = "white";
-
-//   });
-// });
-
+//Q&A 
 document.querySelectorAll(".card .answerBtn").forEach(btn => {
   btn.addEventListener("click", function () {
     let card = btn.closest(".card");
@@ -68,65 +58,18 @@ document.querySelectorAll(".card .answerBtn").forEach(btn => {
 });
 
 
+//back to top 
 
-//clients card slider
-// document.addEventListener("DOMContentLoaded", function () {
-//   let slider = document.querySelector(".slider");
-//   let slides = document.querySelectorAll(".client");
-//   let slidesPerView = 3;
-//   let totalSlides = slides.length;
+let backToTop = document.querySelector(".backToTop");
 
-//   let index = slidesPerView; // start after prepended clones
+window.addEventListener("scroll", () =>{
+  if(window.scrollY > 400){
+    backToTop.classList.add("show");
+  }else{
+    backToTop.classList.remove("show");
+  }
+});
 
-//   // Clone slides at start and end
-//   for (let i = 0; i < slidesPerView; i++) {
-//     slider.appendChild(slides[i].cloneNode(true)); // clone first slides to end
-//     slider.insertBefore(slides[totalSlides - 1 - i].cloneNode(true), slider.firstChild); // clone last slides to start
-//   }
-
-//   let wrapper = document.querySelector(".sliderWrapper");
-//   let slideWidth = wrapper.offsetWidth / slidesPerView;
-
-//   function update(animate = true) {
-//     slider.style.transition = animate ? "transform 0.5s ease" : "none";
-//     slider.style.transform = `translateX(-${index * slideWidth}px)`;
-//   }
-
-//   function nextSlide() {
-//     index++;
-//     update();
-//     if (index === totalSlides + slidesPerView) {
-//       setTimeout(() => {
-//         index = slidesPerView;
-//         update(false);
-//       }, 500);
-//     }
-//   }
-
-//   function prevSlide() {
-//     index--;
-//     update();
-//     if (index === 0) {
-//       setTimeout(() => {
-//         index = totalSlides;
-//         update(false);
-//       }, 500);
-//     }
-//   }
-
-//   // Auto slide every 3s
-//   let autoSlide = setInterval(nextSlide, 3000);
-
-//   // Pause on hover
-//   wrapper.addEventListener("mouseenter", () => clearInterval(autoSlide));
-//   wrapper.addEventListener("mouseleave", () => {
-//     autoSlide = setInterval(nextSlide, 2000);
-//   });
-
-//   // Arrow buttons
-//   document.querySelector(".arrow.right").addEventListener("click", nextSlide);
-//   document.querySelector(".arrow.left").addEventListener("click", prevSlide);
-
-//   // Initial position
-//   update(false);
-// });
+backToTop.addEventListener('click', () =>{
+  window.scrollTo({top: 0, behavior: "smooth"});
+});

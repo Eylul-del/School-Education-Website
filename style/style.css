@@ -170,6 +170,66 @@ nav .contactBtn{
     width: fit-content;
 }
 
+.backToTop{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    padding: 5px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    animation: backToTop 2s infinite ease-in-out;
+    z-index: 3333;
+    border-radius: 12px;
+    background-color: var(--orange65);
+}
+
+.backToTop img{
+    height: 45px;
+    width: 50px;
+}
+
+.backToTop.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: scale(1);
+}
+
+@keyframes backToTop {
+  0%   { transform: translateY(10px); }
+  50%  { transform: translateY(0px); }
+  100% { transform: translateY(10px); }
+}
+
+/*
+.backToTop{
+    padding: 10px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    
+}
+
+.backToTop button{
+    font-size: 25px;
+    border: none;
+    color: rgba(21, 7, 7, 0.9);
+    background-color: transparent;
+}
+
+
+
+
+@keyframes backToTop {
+  0%   { transform: translateY(10px); }
+  50%  { transform: translateY(0px); }
+  100% { transform: translateY(10px); }
+}
+
+*/
+
 main{
     display: flex;
     align-items: center;
@@ -300,22 +360,27 @@ section{
     justify-content: center;
     align-items:baseline;
     position: relative;
-    box-sizing: borderBox;
-    padding: 80px 25px 50px;
-    width: 25%;
-    height: 250px;
+    box-sizing: border-Box;
+    padding: 50px !important;
+    width: 29%;
+    height: 350px;
     border: 2px solid var(--gray10);
     border-radius: 8px;
     box-shadow: 4px 4px 0 var(--gray20);
     background-color: white;
 }
 
+.icon{
+    height: 60px;
+    width: 60px;
+}
+
 .benefit .icon{
     position: absolute;
     top: -30px;
     left: 30px;
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
 }
 
 .benefit .icon img{
@@ -332,6 +397,10 @@ section{
     width: 102%;
     line-height: 150%;
     transform: translateY(-15px);
+}
+
+.ourTestimonials{
+    margin: 0 !important;
 }
 
 .allTestimonials{
@@ -518,6 +587,7 @@ section{
     font-size: 18px;
     letter-spacing: 1px;
     padding: 7px 0;
+    cursor: pointer;
     border-radius: 8px;
     border: 1px solid var(--gray10);
     box-shadow: 3px 3px 0px var(--gray15);
@@ -701,7 +771,7 @@ section{
     }
 
     .joinNow .centerText a{
-        font-size: 12px !important;
+        font-size: 10px !important;
     }
 
     nav{
