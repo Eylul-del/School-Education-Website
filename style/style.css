@@ -927,13 +927,13 @@ section{
     }
 
     .ourBenefits{
-        margin: 0px !important;
-        margin-top: 100px !important;
+        height: auto !important;
+        margin: 70px auto;
     }
 
     .allBenefits{
-        transform: translateY(75px);
-        gap: 80px;
+        gap: 50px;
+        height: auto !important;
     }
 
     .benefit{
@@ -942,7 +942,7 @@ section{
 
     .ourTestimonials{
         height: auto !important;
-        margin-top: 50px !important;
+        margin-top: 100px !important;
     }
 
     .allTestimonials{
