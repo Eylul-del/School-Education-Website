@@ -73,3 +73,37 @@ window.addEventListener("scroll", () =>{
 backToTop.addEventListener('click', () =>{
   window.scrollTo({top: 0, behavior: "smooth"});
 });
+
+
+
+//contact form save
+let form = document.getElementById("contactForm");
+let statusBox = document.getElementById("statusBox");
+let icon = document.querySelector(".icon");
+
+form.addEventListener("submit", function(event){
+    event.preventDefault();
+
+    let data = {
+        parentName: document.getElementById("parentName").value,
+        email: document.getElementById("email").value,
+        phome: document.getElementById("phone").value,
+        studentName: document.getElementById("studentName").value,
+        age: document.getElementById("age").value,
+        program: document.getElementById("program").value,
+        message: document.getElementById("message").value,
+    };
+
+    localStorage.setItem("formData", JSON.stringify(data));
+
+    statusBox.style.display = "flex";
+    icon.classList.remove("animate");
+    void icon.offsetWidth;
+    icon.classList.add("animate");
+
+    form.reset();
+
+    setTimeout(() => {
+        statusBox.style.display = "none";
+    }, 3000);
+});
