@@ -1,0 +1,504 @@
+{
+  "title": "Ana Sayfa",
+  "alt": {
+    "listIcon": "Liste Simgesi",
+    "abstractDesign1": "Soyut Tasarım",
+    "abstractDesign2": "Soyut Tasarım",
+    "abstractDesign3": "Soyut Tasarım",
+    "abstractDesign4": "Soyut Tasarım",
+    "logo": "Logo",
+    "backToTop": "Başa dön",
+    "mainImg": "Ana görsel",
+    "holisticIcon": "Bütünsel öğrenme simgesi",
+    "experiencedIcon": "Deneyimli eğitimci simgesi",
+    "nurturingIcon": "Şefkatli ortam simgesi",
+    "playIcon": "Oyun temelli öğrenme simgesi",
+    "individualIcon": "Bireysel ilgi simgesi",
+    "parentIcon": "Veli katılımı simgesi"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "academics": "Akademik",
+    "admission": "Kayıt",
+    "studentLife": "Öğrenci Yaşamı",
+    "contact": "İletişim"
+  },
+  "joinNow": {
+    "text": "Kayıtlar Açıldı, Yerinizi Şimdi Ayırtın"
+  },
+  "logo": {
+    "text": "Küçük Öğrenciler"
+  },
+  "main": {
+    "welcome": "Küçük Öğrenciler Akademisi'ne Hoş Geldiniz",
+    "description": "Anaokulumuz, öğrenmeye ömür boyu sürecek bir sevgi kazandıran, şefkatli ve teşvik edici bir ortam sunar. Bu heyecan verici eğitim yolculuğuna birlikte çıkalım!"
+  },
+  "mainTitle": {
+  "fullTitle": "Genç Zihinlerin Filizlendiği ve Hayallerin Kanatlandığı Yer."
+  },
+  "achievements": {
+    "students": "Mezun Olan Öğrenciler",
+    "awards": "Ödüller ve Takdirler",
+    "experience": "Eğitim Deneyimi"
+  },
+  "benefits": {
+    "subtitle1": "Çocuklar Parlak Bir Geleceği Hak Eder",
+    "title": "Avantajlarımız",
+    "subtitle2": "Deneyimli eğitimcilerden oluşan özel ekibimiz, modern tesislerimiz ve kapsamlı müfredatımız ile çocuğunuzun geleceği için sağlam bir temel atmayı hedefliyoruz.",
+    "holistic": {
+      "title": "Bütünsel Öğrenme Yaklaşımı",
+      "description": "Müfredatımız, bilişsel, sosyal, duygusal ve fiziksel gelişimi destekleyerek dengeli bir eğitim sağlar."
+    },
+    "educators": {
+      "title": "Deneyimli Eğitimciler",
+      "description": "Tutkulu ve nitelikli öğretmenlerimiz destekleyici ve teşvik edici bir öğrenme ortamı yaratır."
+    },
+    "nurturing": {
+      "title": "Şefkatli Ortam",
+      "description": "Güvenliği ön planda tutar, her çocuk için sıcak ve özenli bir atmosfer sunarız."
+    },
+    "play": {
+      "title": "Oyun Temelli Öğrenme",
+      "description": "Yaratıcılığı, problem çözme becerilerini ve hayal gücünü geliştirmek için oyunun gücüne inanıyoruz."
+    },
+    "individual": {
+      "title": "Bireysel İlgi",
+      "description": "Küçük sınıf mevcudumuz sayesinde her çocuğun özel ihtiyaçlarına yönelik bireysel ilgi sağlıyoruz."
+    },
+    "parent": {
+      "title": "Veli Katılımı",
+      "description": "Okul-veli iş birliğini güçlendirerek etkili iletişim ve iş birliği sağlıyoruz."
+    }
+  },
+  "testimonials": {
+    "subtitle": "Mutlu Sözleri 🤗",
+    "title": "Görüşlerimiz",
+    "description": "Görüşlerimiz, çocukların hem akademik hem de duygusal olarak geliştiği şefkatli ortamımızın içten yansımalarıdır.",
+    "clients": {
+    "jennifer": {
+      "name": "Jennifer B",
+      "opinion": "Küçük Öğrenciler Akademisi çocuğum için ikinci bir ev oldu. Şefkatli kadro ve ilgi çekici programlar sayesinde her gün okula gitmek için heyecanlanıyor!"
+    },
+    "david": {
+      "name": "David K",
+      "opinion": "Kızım için Küçük Öğrenciler Akademisi'ni seçmek en iyi karardı. Şefkatli ve teşvik edici ortamda gelişti."
+    },
+    "emily": {
+      "name": "Emily L",
+      "opinion": "Oğlumun sosyal ve akademik gelişimi Küçük Öğrenciler Akademisi'ne katıldığından beri gözle görülür şekilde arttı. Destekleyici ve özverili öğretmenlere minnettarım."
+    }
+  }
+  },
+  "faq": {
+    "subtitle": "Sorulara Çözümler",
+    "title": "Sıkça Sorulan Sorular",
+    "description": "Çocuğunuzun eğitimi için bilinçli kararlar almanıza yardımcı olacak en sık sorulan soruları yanıtladığımız SSS bölümümüzde tüm gerekli bilgileri bulabilirsiniz.",
+    "questions": {
+      "hours": {
+        "question": "Küçük Öğrenciler Akademisi'nde okul saatleri nedir?",
+        "answer": "Okul saatlerimiz Pazartesi'den Cuma'ya 08:00 - 15:00 arasındadır. Erken bırakma ve geç alma seçenekleri de sunulmaktadır."
+      },
+      "allergies": {
+        "question": "Gıda alerjileri ve diyet kısıtlamaları nasıl yönetiliyor?",
+        "answer": "Okulumuzda tüm yemeklerin güvenli ve denetimli olmasını sağlayan sıkı protokoller uygulanmaktadır."
+      },
+      "uniform": {
+        "question": "Öğrenciler için kıyafet zorunluluğu var mı?",
+        "answer": "Öğrencilerin birlik ve aidiyet duygusunu teşvik etmek amacıyla okul forması giymeleri gerekmektedir."
+      }
+    }
+  },
+  "pages": {
+    "subtitle": "Daha Fazlasını Keşfedin",
+    "title": "Sayfalarımızda Gezin",
+    "description": "Anaokulumuz hakkında değerli bilgilere ulaşabileceğiniz kapınız; keşfedin ve çocuğunuzu bekleyen zenginleştirici deneyimleri öğrenin.",
+    "cards": {
+      "about": {
+        "title": "Hakkımızda",
+        "description": "Misyonumuzu, değerlerimizi ve çocuğunuz için en iyi öğrenme deneyimini sunma konusundaki kararlılığımızı keşfedin. Tutkulu eğitimcilerimizi ve erken eğitime yönelik yaklaşımımızı tanıyın.",
+        "button": "Daha Fazla Bilgi"
+      },
+      "academics": {
+        "title": "Akademik",
+        "description": "Genç zihinleri harekete geçiren, yaratıcılığı teşvik eden ve öğrenme sevgisini geliştiren kapsamlı akademik programlarımızı inceleyin.",
+        "button": "Daha Fazla Bilgi"
+      },
+      "studentLife": {
+        "title": "Öğrenci Yaşamı",
+        "description": "Küçük Öğrenciler Akademisi'ndeki canlı ve zenginleştirici öğrenci yaşamına göz atın.",
+        "button": "Öğrenci Yaşamı"
+      },
+      "admission": {
+        "title": "Kayıt",
+        "description": "Kayıt sürecimizi öğrenin ve çocuğunuzun Küçük Öğrenciler Akademisi'nde yerini nasıl güvence altına alacağınızı keşfedin.",
+        "button": "Kayıt"
+      }
+    }
+  },
+  "footer": {
+    "brand": {
+      "name": "Küçük Öğrenciler",
+      "description": "Yaratıcılığı, problem çözme becerilerini ve hayal gücünü geliştirmek için oyunun gücüne inanıyoruz."
+    },
+    "contact": {
+      "email": "hello@littlelearners.com",
+      "phone": "+91 91813 23 2309",
+      "location": "Dünyanın Bir Yerinde"
+    },
+    "links": {
+      "home": {
+        "title": "Ana Sayfa",
+        "features": "Özellikler",
+        "testimonials": "Görüşlerimiz",
+        "faq": "SSS"
+      },
+      "about": {
+        "title": "Hakkımızda",
+        "mission": "Misyonumuz",
+        "awards": "Ödüller ve Takdirler",
+        "history": "Tarihçe"
+        
+        }
+    }
+  },
+
+
+
+  "comment":{
+    "HAKKIMIZDA SAYFASI": ""
+  },
+
+
+
+
+  "overview_sub1": "Genel Bakış",
+  "overview_title": "Little Learners Academy'ye Hoş Geldiniz",
+  "overview_description": "Küçük öğrenenler için besleyici ve uyarıcı bir ortam sağlamaya adanmış önde gelen bir anaokuludur. Erken eğitimde mükemmelliğe olan bağlılığımızla, meraklı zihinleri şekillendirmeye ve yaşam boyu öğrenme sevgisi için sağlam bir temel oluşturmaya inanıyoruz. Bütünsel yaklaşımımız, her çocuğun potansiyeline ulaşmasını sağlayarak zihinsel, sosyal, duygusal ve fiziksel gelişimi destekler.",
+  
+  "mission_sub1": "Misyon & Vizyon",
+  "mission_title": "Misyonumuz ve Vizyonumuz",
+  "mission_intro": "Küçük zihinlerin gelişebileceği besleyici ve kapsayıcı bir ortam sağlamak, öğrenme sevgisini ve kişisel gelişimi teşvik etmek için buradayız.",
+  "mission_card_title": "Misyon",
+  "mission_card_description": "Little Learners Academy'de misyonumuz, öğrenme tutkusunu ilham vermek ve küçük zihinleri kendine güvenen, merhametli ve yaratıcı bireyler olarak güçlendirmektir. Çocukların akademik, sosyal ve duygusal olarak gelişebileceği güvenli ve kapsayıcı bir alan yaratmayı amaçlıyoruz, başarılı bir eğitim yolculuğu için temel oluşturuyoruz.",
+  "vision_card_title": "Vizyon",
+  "vision_card_description": "Vizyonumuz, çocukların benzersiz yeteneklerini keşfetmeye, öğrenmeye ve ifade etmeye teşvik edildiği bir eğitim mükemmelliği örneği olmaktır. Eleştirel düşünme, empati ve çeşitliliğe derin bir saygı ile donanmış bir nesil yaşam boyu öğrenen yetiştirmeyi hedefliyoruz.",
+  
+  "awards_sub1": "Başarılarımız",
+  "awards_title": "Ödüllerimiz ve Takdirlerimiz",
+  "awards_description": "Little Learners Academy, yüksek kaliteli eğitim ve olağanüstü öğrenci deneyimleri sunma konusundaki bağlılığıyla gurur duyar. Erken çocukluk eğitimine olan özverimizi takdir eden çeşitli ödüller ve takdirler aldık. Bu ödüller, ekibimizin öğrencilerimiz için olağanüstü bir öğrenme ortamı yaratmadaki sürekli çabalarını yansıtmaktadır.",
+  "award1_title": "Erken Çocukluk Eğitiminde Mükemmellik Ödülü",
+  "award1_description": "Little Learners Academy'nin olağanüstü erken çocukluk eğitimi ve besleyici bir öğrenme ortamı sunma konusundaki bağlılığını takdir eden Ulusal Erken Çocukluk Eğitimi Derneği (NAEYC) tarafından verildi.",
+  "award2_title": "Yenilikçi STEAM Eğitim Ödülü",
+  "award2_description": "Yenilikçi STEAM (Bilim, Teknoloji, Mühendislik, Sanat ve Matematik) programlarını tanıtmadaki öncü çabalarımız için Eğitim Mükemmelliği Derneği tarafından verildi; bu programlar küçük öğrenenlerde yaratıcılığı ve eleştirel düşünmeyi ateşler.",
+  "award3_title": "Çevresel Sorumluluk Ödülü",
+  "award3_description": "Doğaya olan sevgiyi teşvik eden çevre eğitimi ve sürdürülebilir uygulamalara adanmışlığımız için Yeşil Dünya Derneği tarafından verildi.",
+  
+  "history_sub1": "Gelişim Yolculuğumuz",
+  "history_title": "Tarihçemiz",
+  "history_intro": "2005 yılında erken eğitime olan bir tutku ile kurulan anaokulumuz, yenilikçi öğretim yöntemleri ve destekleyici bir öğrenme ortamı aracılığıyla küçük öğrenenlerin potansiyeline ulaşmalarını sağlama konusunda zengin bir geçmişe sahiptir.",
+  "history_2023_title": "Direnç ve Gelecek Ufukları",
+  "history_2023_text": "Yeni zorluklara uyum sağlarken, olağanüstü erken eğitim sağlama misyonumuza bağlı kaldık. İyimserlikle geleceğe bakıyoruz ve yarının liderlerini ve düşünürlerini şekillendirmeye devam ederken sınırsız olanaklarla dolu bir gelecek görüyoruz.",
+  "history_2017_title": "Yenilik ve Teknoloji",
+  "history_2017_text": "2016'dan 2020'ye kadar anaokulumuzdaki ilerlemenin itici gücü yenilik oldu. En son eğitim teknolojilerini benimseyerek, öğrencilerimize etkileşimli ve ilgi çekici öğrenme deneyimleri sunduk.",
+  "history_2012_title": "Genişleme ve Tanınma",
+  "history_2012_text": "Bu yıllar, okulumuz için genişleme ve tanınma dönemi olarak işaretlendi. Tesislerimizi genişletirken ve müfredatımızı güçlendirirken, kaliteli eğitim ve yenilikçi öğretim yöntemleri konusundaki bağlılığımız için ödüller aldık.",
+  "history_2005_title": "Başlangıç ve Büyüme",
+  "history_2005_text": "2005 yılında kurulan anaokulumuz, küçük zihinlerin keşfetmesi, öğrenmesi ve büyümesi için besleyici bir alan sağlama vizyonuyla yolculuğuna başladı. Önümüzdeki beş yıl boyunca kayda değer bir büyüme yaşadık.",
+  
+  "team_sub1": "Deneyimli Öğretmenlerimiz",
+  "team_title": "Ekip Üyelerimiz",
+  "team_intro": "Little Learners Academy'de öğretim ekibi eğitim yolculuğumuzun kalbidir. Erken çocukluk gelişimi konusunda derin anlayışa sahip yüksek nitelikli ve tutkulu öğretmenleri istihdam etmekten gurur duyuyoruz. Öğretmenlerimiz merak uyandıran, güven aşılayan ve öğrenme sevgisini teşvik eden sıcak ve çekici bir ortam yaratır.",
+  
+  "teacher1_name": "Bay David Roberts",
+  "teacher1_qualification": "Nitelik: İlköğretimde Yüksek Lisans Derecesi",
+  "teacher1_bio": "İlköğretim alanındaki güçlü geçmişi ile Bay David, sınıfına yaratıcı ve etkileşimli bir öğretim tarzı getiriyor. Öğrenmeye olan tutkusu öğrencileri soru sormaya ve eleştirel düşünmeye teşvik eder.",
+  
+  "teacher2_name": "Bay Michael Turner",
+  "teacher2_qualification": "Nitelik: Beden Eğitimi Lisans Derecesi",
+  "teacher2_bio": "Bay Michael’ın fiziksel fitness ve spora olan tutkusu, enerjik derslerinde kendini gösteriyor. Öğrencileri aktif kalmaya teşvik eder, ekip çalışmasını ve sağlıklı bir yaşam tarzını destekler.",
+  
+  "teacher3_name": "Bay William Parker",
+  "teacher3_qualification": "Nitelik: Güzel Sanatlar Lisans Derecesi",
+  "teacher3_bio": "Bay William’ın güzel sanatlar geçmişi sınıfına yaratıcılık ve hayal gücü getiriyor. Sanat projeleri ve aktiviteler aracılığıyla, öğrencilerinde sanatsal ifade ve özgüven geliştirir.",
+
+
+
+
+  "comment2":{
+    "AKADEMİK SAYFA": ""
+  },
+
+
+  "main2": {
+    "cornerImgAlt": "Soyut Tasarım",
+    "mainTitle": {
+      "sub1": "Akademik",
+      "h2": "Genç Zihinleri Başarıya Hazırlamak"
+    },
+    "description": "Akademik sayfamıza hoş geldiniz! Çocuğunuz için kapsamlı ve ilgi çekici bir eğitim deneyimi sunmaktan gurur duyuyoruz. Anaokulumuzun akademik programı, öğrenme sevgisini teşvik ederken temel beceri ve bilgi temellerini güçlendirecek şekilde özenle tasarlanmıştır. Dil sanatlarından matematiğe, bilimden sosyal bilimlere kadar müfredatımız merak uyandırmak ve aktif keşfi teşvik etmek için dikkatle hazırlanmıştır."
+  },
+  "specialFeatures": {
+  "sub1": "Özelliklerimiz",
+  "title": { "h2": "Özel Özelliklerimiz" },
+  "sub2": "Anaokulumuz, ömür boyu sürecek bir öğrenme sevgisini teşvik eden sıcak ve ilham verici bir ortam sağlar. Haydi, birlikte heyecan verici bir eğitim yolculuğuna çıkalım!",
+  "featuresCards": {
+    "feature1": {
+      "h3": "Tematik Öğrenme",
+      "description": "Müfredatımız, çocukların hayal gücünü yakalayan ilgi çekici temalar etrafında şekillenir. Her tema, birden fazla dersi entegre ederek öğrenmeyi keyifli ve anlamlı kılar.",
+      "iconAlt": "Simge"
+    },
+    "feature2": {
+      "h3": "STEAM Eğitimi",
+      "description": "Ellerini kullanarak keşif, eleştirel düşünme ve problem çözme becerilerini geliştiren yenilikçi STEAM (Bilim, Teknoloji, Mühendislik, Sanat ve Matematik) programları sunuyoruz.",
+      "iconAlt": "Simge"
+    },
+    "feature3": {
+      "h3": "Dil Maruziyeti",
+      "description": "Dil maruziyeti programları sayesinde çocuklar ikinci bir dili öğrenme fırsatı bulur, bilişsel gelişim ve küresel farkındalık artar.",
+      "iconAlt": "Simge"
+    },
+    "feature4": {
+      "h3": "Sanat ve Yaratıcılık",
+      "description": "Little Learners Academy’de sanat kutlanır. Sanat odaklı aktivitelerimiz, kendini ifade etmeyi, yaratıcılığı ve farklı sanat biçimlerini takdir etmeyi teşvik eder.",
+      "iconAlt": "Simge"
+    },
+    "feature5": {
+      "h3": "Açık Hava Eğitimi",
+      "description": "Geniş açık alanlarımız, çocukların doğayı keşfetmesi ve çevre ile bağlantı kurmasını sağlayan ilgi çekici bir ortam sunar.",
+      "iconAlt": "Simge"
+    },
+    "feature6": {
+      "h3": "Oyun Temelli Öğrenme",
+      "description": "Oyun, erken çocukluk eğitiminde temel bir parçadır. Oyun temelli yaklaşımımız sosyal becerileri, duygusal gelişimi ve hayal gücünü artırır.",
+      "iconAlt": "Simge"
+    }
+  }
+},
+  "takenClasses": {
+    "sub1": "Özelliklerimiz",
+    "title": {
+      "h2": "Öğrenciler Ne Öğreniyor"
+    },
+    "sub2": "Little Learners Academy’de öğrenme sevgisini geliştirmeyi ve çocukları gelecekteki başarıları için temel becerilerle donatmayı amaçlıyoruz. Akademik programlarımız geniş bir konu yelpazesini kapsar, öğrencilerin sağlam bir temel geliştirmesine ve ilgi alanlarını keşfetmesine olanak tanır. Bazı önemli öğrenme alanları şunlardır:",
+    "classes": {
+      "class1":{
+        "h3": "Dil Sanatları",
+        "description": "Okuma, yazma, hikaye anlatımı ve iletişim becerileri.",
+        "imgAlt": "Sınıf Görseli"
+      },
+      "class2":{
+        "h3": "Matematik",
+        "description": "Sayı kavramı, temel işlemler, problem çözme ve mantık.",
+        "imgAlt": "Sınıf Görseli"
+      },
+      "class3":{
+        "h3": "Fen Bilimleri",
+        "description": "Uygulamalı deneyler ve araştırmalarla doğal dünyayı keşfetmek.",
+        "imgAlt": "Sınıf Görseli"
+      },
+      "class4":{
+        "h3": "Sosyal Bilgiler",
+        "description": "Farklı kültürler ve topluluklar hakkında anlayış geliştirmek.",
+        "imgAlt": "Sınıf Görseli"
+      },
+      "class5":{
+        "h3": "Sanat ve El Sanatları",
+        "description": "Çeşitli sanat biçimleri ve el sanatları aracılığıyla yaratıcılığı teşvik etmek.",
+        "imgAlt": "Sınıf Görseli"
+      },
+      "class6":{
+        "h3": "Beden Eğitimi",
+        "description": "Fiziksel uygunluğu, koordinasyonu ve takım çalışmasını teşvik etmek.",
+        "imgAlt": "Sınıf Görseli"
+      }
+    }
+  },
+  "roomGallery": {
+    "sub1": "Galerimiz",
+    "title": {
+      "h2": "Odalarımızın Galerisi"
+    },
+    "sub2": "Galerimize adım atın ve anaokulumuzdaki değerli anlar ve unutulmaz deneyimlerle dolu görsel bir yolculuğa kendinizi kaptırın.",
+    "rooms": {
+      "room1":{
+        "h3": "Sınıflar",
+        "description": "İyi donatılmış sınıflarımız, destekleyici ve ilham verici bir öğrenme ortamı sağlamak için tasarlanmıştır. Her sınıf, yaratıcılığı, merakı ve katılımı teşvik edecek şekilde düzenlenmiştir.",
+        "imgAlts": ["Oda", "Oda", "Oda", "Oda"]
+      },
+      "room2":{
+        "h3": "Kütüphane",
+        "description": "Geniş kütüphanemiz, kitap hazinesi sunar, okuma sevgisini teşvik eder ve öğrencilerin okuryazarlık gelişimini destekler.",
+        "imgAlts": ["Oda", "Oda", "Oda", "Oda"]
+      },
+      "room3":{
+        "h3": "Fen Laboratuvarı",
+        "description": "Uygulamalı fen laboratuvarımız, öğrencilerin deneyler yapmasına ve bilimsel kavramları eğlenceli ve etkileşimli bir şekilde keşfetmesine olanak tanır.",
+        "imgAlts": ["Oda", "Oda", "Oda", "Oda"]
+      },
+      "room4":{
+        "h3": "Bilgisayar Laboratuvarı",
+        "description": "Yaşa uygun teknoloji ile donatılmış bilgisayar laboratuvarı, öğrencilerin dijital okuryazarlık ve hesaplama becerilerini geliştirir.",
+        "imgAlts": ["Oda", "Oda", "Oda", "Oda"]
+      },
+      "room5":{
+        "h3": "Bahçe ve Doğa Alanı",
+        "description": "Bahçemiz ve doğa alanımız, çocukların doğayla bağlantı kurmasına ve bitkiler ve çevre hakkında öğrenmesine fırsat sunar.",
+        "imgAlts": ["Oda", "Oda", "Oda", "Oda"]
+      }
+    }
+  },
+
+
+
+"comment4":{
+    "KAYIT SAYFASI": ""
+  },
+
+
+
+  "admission": {
+    "cornerImgAlt": "Soyut Tasarım",
+    "main": {
+      "sub1": "Kabul",
+      "h2": "Genç Öğrenenler Ailemize Katılın",
+      "description": "Little Learners Academy'ye hoş geldiniz! Çocuğunuz için heyecan verici bir eğitim yolculuğuna başlamanızı sabırsızlıkla bekliyoruz. Kabul sürecimiz şeffaf, basit ve kapsayıcı olacak şekilde tasarlanmıştır. İşte okulumuzun adımlarını takip ederek katılım rehberi."
+    },
+    "process": {
+      "sub1": "Süreç",
+      "title": "Kabul Süreci",
+      "sub2": "Bizimle unutulmaz bir eğitim yolculuğuna çıkın! Kabul ve kayıt sürecimiz, çocuğunuza anaokulumuzda olağanüstü bir öğrenim deneyimi sunmanın kapısıdır.",
+      "cards": {
+        "inquiry": {
+          "title": "Bilgi Talebi",
+          "description": "Web sitemiz üzerinden bilgi talep formunu doldurun veya Little Learners Academy ile ilgilendiğinizi ifade etmek için kabul ofisimizle iletişime geçin."
+        },
+        "tour": {
+          "title": "Okul Turu",
+          "description": "Kampüsümüzü keşfetmek, personelimizle tanışmak ve destekleyici öğrenim ortamımız hakkında bilgi almak için kişisel bir okul turu planlayın."
+        },
+        "application": {
+          "title": "Başvuru Formu",
+          "description": "Başvuru formunu doldurun ve gerekli belgeleri sağlayın; bunlar arasında çocuğunuzun doğum belgesi, sağlık kayıtları ve varsa önceki akademik kayıtlar yer alır."
+        },
+        "parentInterview": {
+          "title": "Veli Görüşmesi",
+          "description": "Veli katılımına önem veriyoruz; kabul ekibimizle yapılan görüşme, çocuğunuzun ihtiyaçlarını anlamamıza ve Little Learners Academy'nin ailenizin beklentileriyle uyumlu olmasını sağlamamıza yardımcı olur."
+        },
+        "assessment": {
+          "title": "Öğrenci Değerlendirmesi",
+          "description": "Bazı yaş grupları için öğrencilerin gelişimsel ilerlemelerini anlamak ve en iyi yerleştirmeyi sağlamak için değerlendirme yapılabilir."
+        },
+        "acceptance": {
+          "title": "Kabul",
+          "description": "Kabul süreci tamamlandıktan sonra Little Learners Academy'den resmi kabul mektubunu alacaksınız."
+        }
+      }
+    },
+    "fee": {
+      "sub1": "Özelliklerimiz",
+      "title": "Ücret Yapısı",
+      "sub2": "Ücret yapımız şeffaftır ve eğitim sektöründe rekabetçi ücretler sunmayı hedefliyoruz. Ücretler programa, yaş grubuna ve seçilen ek hizmetlere göre değişir.",
+      "table": {
+        "program": "Program",
+        "age": "Yaş Grubu",
+        "tuition": "Yıllık Ücret",
+        "registration": "Kayıt Ücreti",
+        "activity": "Etkinlik Ücreti",
+        "nursery": {
+          "program": "Kreş",
+          "age": "2 - 3 Yaş",
+          "tuition": "$1,686",
+          "registration": "$162",
+          "activity": "$12"
+        },
+        "preK": {
+          "program": "Okul Öncesi",
+          "age": "3 - 4 Yaş",
+          "tuition": "$2,686",
+          "registration": "$220",
+          "activity": "$16"
+        },
+        "kinder": {
+          "program": "Anaokulu",
+          "age": "4 - 5 Yaş",
+          "tuition": "$3,686",
+          "registration": "$340",
+          "activity": "$20"
+        }
+      },
+      "additional": {
+        "title": "Ek Hizmetler",
+        "beforeAfter": "Okul Öncesi ve Sonrası Bakım",
+        "beforeAfterPrice": "$120 / aylık",
+        "language": "Dil Maruziyeti Programı",
+        "languagePrice": "$60 / dönemlik",
+        "transportation": "Ulaşım (isteğe bağlı)",
+        "transportationPrice": "$80 / aylık"
+      }
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+  "comment6":{
+    "STUDENT LIFE PAGE": ""
+  },
+
+  
+
+  "contact": {
+    "cornerImgAlt": "Soyut Tasarım",
+    "main": {
+      "sub1": "İletişim",
+      "h2": "Bizimle İletişime Geçmekten Çekinmeyin",
+      "description": "Açık iletişimi önemsiyoruz ve herhangi bir sorunuzda size yardımcı olmaktan mutluluk duyarız. Aşağıdaki iletişim yöntemlerinden herhangi biriyle bize ulaşabilirsiniz"
+    },
+    "addresses": {
+      "email": "hello@littlelearners.com",
+      "phone": "+91 91813 23 2309",
+      "location": "Dünyanın bir yerinde",
+      "hours": "Çalışma Saatleri - 09:00 - 18:00"
+    }
+  },
+  "contactForm": {
+    "sub1": "İletişim Formu",
+    "title": "Öğrenci Bilgileri",
+    "sub2": "Belirli sorularınız varsa veya Little Learners Akademisi hakkında daha fazla bilgi talep etmek istiyorsanız, lütfen aşağıdaki iletişim formunu doldurun. İhtiyaçlarınızı daha iyi anlayabilmemiz için lütfen aşağıdaki bilgileri sağlayın",
+    "labels": {
+      "parentName": "Veli Adı",
+      "email": "E-posta Adresi",
+      "phone": "Telefon Numarası",
+      "studentName": "Öğrenci Adı",
+      "studentAge": "Öğrenci Yaşı",
+      "program": "İlgilenilen Program",
+      "message": "Mesaj"
+    },
+    "placeholders": {
+      "parentName": "Veli Adını Girin",
+      "email": "E-posta Adresini Girin",
+      "phone": "Telefon Numarasını Girin",
+      "studentName": "Öğrenci Adını Girin",
+      "studentAge": "Öğrenci Yaşını Girin",
+      "program": "Program Seçin",
+      "message": "Mesajınızı Girin"
+    },
+    "submitBtn": "Gönder",
+    "status": {
+      "iconAlt": "Onay İşareti",
+      "message": "Bilgiler başarıyla kaydedildi!"
+    }
+  }
+
+
+}
+

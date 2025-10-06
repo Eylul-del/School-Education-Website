@@ -11,20 +11,39 @@
 </head>
 <body>
     <div class="navList" onclick="toggleNavList()">
-        <img src="./img/Icon.png" alt="list icon">        
+    <div class="navList" onclick="toggleNavList()">
+        <img src="./img/Icon.png" alt="list icon" data-i18n-alt="alt.listIcon">        
     </div>
+
     <div class="sidebar">
         <div class="hideBar" onclick="toggleNavList()">
             <i class="fa-solid fa-xmark"></i>
         </div>
         <div class="sideBarPages">
             <ul>
-                <li class="homeBtn">Home</li>
-                <li class="aboutBtn">About Us</li>
-                <li class="academicsBtn">Academics</li>
-                <li class="admissionBtn">Admission</li>
-                <li class="studentBtn home">Student Life</li>
-                <li class="contactBtn">Contact</li>
+                <li class="nav-item lang" id="langSelector">
+                    <i class="fa-solid fa-language"></i>
+                    <div class="lang-dropdown">
+                        <ul id="languageList">
+                            <li data-lang="ar">
+                                <img src="./img/saudiArabia.jpg" alt="">
+                            </li>
+                            <li data-lang="tr">
+                                <img src="./img/turkeyjpg.jpg" alt="">
+                            </li>
+                            <li data-lang="en">
+                                <img src="./img/UKjpg.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="homeBtn" data-i18n="nav.home">Home</li>
+                <li class="aboutBtn" data-i18n="nav.about">About Us</li>
+                <li class="academicsBtn" data-i18n="nav.academics">Academics</li>
+                <li class="admissionBtn" data-i18n="nav.admission">Admission</li>
+                <li class="studentBtn home" data-i18n="nav.studentLife">Student Life</li>
+                <li class="contactBtn" data-i18n="nav.contact">Contact</li>
+                
             </ul>
         </div>
     </div>
@@ -32,42 +51,51 @@
     <header>
         <div class="joinNow">
             <div class="leftImg">
-                <img src="./img/Abstract Design.png" alt="Abstract Design">
-                <img src="./img/Abstract Design (2).png" alt="Abstract Design">
+                <img src="./img/Abstract Design.png" alt="Abstract Design" data-i18n-alt="alt.abstractDesign1">
+                <img src="./img/Abstract Design (2).png" alt="Abstract Design" data-i18n-alt="alt.abstractDesign2">
             </div>
 
             <div class="centerText">
-                <a href="#">Admission is Open, Grab your seat now <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#" data-i18n="joinNow.text">Admission is Open, Grab your seat now <i class="fa-solid fa-arrow-right"></i></a>
             </div>
 
             <div class="rightImg">
-                <img src="./img/Abstract Design (3).png" alt="Abstract Design">
-                <img src="./img/Abstract Design (1).png" alt="Abstract Design">
+                <img src="./img/Abstract Design (3).png" alt="Abstract Design" data-i18n-alt="alt.abstractDesign3">
+                <img src="./img/Abstract Design (1).png" alt="Abstract Design" data-i18n-alt="alt.abstractDesign4">
             </div>
         </div>
 
         <nav>
             <div class="logo">
-                <img src="./img/shape-14.png" alt="logo">
-                <p>Little Learners</p>
+                <img src="./img/shape-14.png" alt="logo" data-i18n-alt="alt.logo">
+                <p data-i18n="logo.text">Little Learners</p>
             </div>
             <div class="pages">
                 <ul>
-                    <li class="homeBtn">Home</li>
-                    <li class="aboutBtn">About Us</li>
-                    <li class="academicsBtn">Academics</li>
-                    <li class="admissionBtn">Admission</li>
-                    <li class="studentBtn home">Student Life</li>
-                    <li class="contactBtn">Contact</li>
+                    <li class="homeBtn" data-i18n="nav.home">Home</li>
+                    <li class="aboutBtn" data-i18n="nav.about">About Us</li>
+                    <li class="academicsBtn" data-i18n="nav.academics">Academics</li>
+                    <li class="admissionBtn" data-i18n="nav.admission">Admission</li>
+                    <li class="studentBtn home" data-i18n="nav.studentLife">Student Life</li>
+                    <li class="contactBtn" data-i18n="nav.contact">Contact</li>
+                    <li class="nav-item lang" id="langSelector">
+                        <i class="fa-solid fa-language"></i>
+                        <div class="lang-dropdown">
+                            <ul id="languageList">
+                                <li data-lang="ar">العربية</li>
+                                <li data-lang="en">English</li>
+                                <li data-lang="tr">Türkçe</li>
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </nav>
     </header>
 
     <div class="backToTop">
-        <img src="./img/backToTop.png" alt="back to top img">
+        <img src="./img/backToTop.png" alt="back to top img" data-i18n-alt="alt.backToTop">
     </div>
-    
     <main>
         <div class="cornerImg">
             <img src="./img/Abstract Design (5).png" alt="Abstract Design">
@@ -337,60 +365,61 @@
     <footer class="footer">
         <div class="footerContainer">
             <div class="footerBrand">
-              <div class="logo">
-                <img src="./img/shape-14.png" alt="logo">
-                <h3>Little Learners</h3>
-              </div>
-              <p>We believe in the power of play to foster creativity, problem-solving skills, and imagination.</p>
+                <div class="logo">
+                    <img src="./img/shape-14.png" alt="logo">
+                    <h3 data-i18n="footer.brand.name">Little Learners</h3>
+                </div>
+                <p data-i18n="footer.brand.description">
+                    We believe in the power of play to foster creativity, problem-solving skills, and imagination.
+                </p>
 
-              <ul class="contactInfo">
-                <li><i class="fa-solid fa-envelope"></i> hello@littlelearners.com</li>
-                <li><i class="fa-solid fa-phone"></i> +91 91813 23 2309</li>
-                <li><i class="fa-solid fa-location-dot"></i> Somewhere in the World</li>
-              </ul>
+                <ul class="contactInfo">
+                    <li><i class="fa-solid fa-envelope"></i> <span data-i18n="footer.contact.email">hello@littlelearners.com</span></li>
+                    <li><i class="fa-solid fa-phone"></i> <span data-i18n="footer.contact.phone">+91 91813 23 2309</span></li>
+                    <li><i class="fa-solid fa-location-dot"></i> <span data-i18n="footer.contact.location">Somewhere in the World</span></li>
+                </ul>
             </div>
 
             <div class="footerLinks">
-              <div>
-                <h4>Home</h4>
-                <ul>
-                  <li><a href="academics.html#features">Features</a></li>
-                  <li><a href="index.html#testimonials">Our Testimonials</a></li>
-                  <li><a href="index.html#FAQ">FAQ</a></li>
-                </ul>
-              </div>
-              <div>
-                <h4>About Us</h4>
-                <ul>
-                  <li><a href="about.html#missionAndVision">Our Mission</a></li>
-                  <li><a href="about.html#awardsAndRecognition">Awards and Recognitions</a></li>
-                  <li><a href="about.html#history">History</a></li>
-                  <li><a href="about.html#team">Teachers</a></li>
-                </ul>
-              </div>
-              <div>
-                <h4>Academics</h4>
-                <ul>
-                  <li><a href="admission.html#specialFeatures">Special Features</a></li>
-                  <li><a href="academics.html#gallery">Gallery</a></li>
-                </ul>
-              </div>
-              <div>
-                <h4>Contact Us</h4>
-                <ul>
-                  <li><a href="contact.html">Information</a></li>
-                  <li><a href="contact.html">Map &amp; Direction</a></li>
-                </ul>
-              </div>
+                <div>
+                    <h4 data-i18n="footer.links.home.title">Home</h4>
+                    <ul>
+                        <li><a href="academics.html#features" data-i18n="footer.links.home.features">Features</a></li>
+                        <li><a href="index.html#testimonials" data-i18n="footer.links.home.testimonials">Our Testimonials</a></li>
+                        <li><a href="index.html#FAQ" data-i18n="footer.links.home.faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 data-i18n="footer.links.about.title">About Us</h4>
+                    <ul>
+                        <li><a href="about.html#missionAndVision" data-i18n="footer.links.about.mission">Our Mission</a></li>
+                        <li><a href="about.html#awardsAndRecognition" data-i18n="footer.links.about.awards">Awards and Recognitions</a></li>
+                        <li><a href="about.html#history" data-i18n="footer.links.about.history">History</a></li>
+                        <li><a href="about.html#team" data-i18n="footer.links.about.teachers">Teachers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 data-i18n="footer.links.academics.title">Academics</h4>
+                    <ul>
+                        <li><a href="admission.html#specialFeatures" data-i18n="footer.links.academics.features">Special Features</a></li>
+                        <li><a href="academics.html#gallery" data-i18n="footer.links.academics.gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 data-i18n="footer.links.contact.title">Contact Us</h4>
+                    <ul>
+                        <li><a href="contact.html" data-i18n="footer.links.contact.info">Information</a></li>
+                        <li><a href="contact.html" data-i18n="footer.links.contact.map">Map & Direction</a></li>
+                    </ul>
+                </div>
             </div>
-
         </div>
 
         <div class="footerBottom">
             <div class="policies">
-                <a href="#">Terms of Service</a> |
-                <a href="#">Privacy Policy</a> |
-                <a href="#">Cookie Policy</a>
+                <a href="#" data-i18n="footer.policies.terms">Terms of Service</a> |
+                <a href="#" data-i18n="footer.policies.privacy">Privacy Policy</a> |
+                <a href="#" data-i18n="footer.policies.cookie">Cookie Policy</a>
             </div>
 
             <div class="socials">
@@ -399,11 +428,13 @@
                 <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
         </div>
-    
-        <p class="copyright">Copyright © [2023] Little Learners Academy. All rights reserved.</p>
+
+        <p class="copyright" data-i18n="footer.copyright">
+            Copyright © [2023] Little Learners Academy. All rights reserved.
+        </p>
     </footer>
 
-
-    <script src="js.js"></script>
+    <script src="js/js.js"></script>
+    <SCript src="js/lang.js"></SCript>
 </body>
 </html>

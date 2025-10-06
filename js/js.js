@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function(){
     let aboutBtn  = document.querySelectorAll(".aboutBtn");
     let academicsBtn = document.querySelectorAll(".academicsBtn");
     let admissionBtn = document.querySelectorAll(".admissionBtn");
-    let studentBtn = document.querySelectorAll(".studentBtn");
+    let studentBtn = document.querySelectorAll(".studentBtn"); 
     let contactBtn = document.querySelectorAll(".contactBtn");
 
     let links = [

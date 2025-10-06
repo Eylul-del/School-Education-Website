@@ -12,20 +12,38 @@
 <body>
     
     <div class="navList" onclick="toggleNavList()">
-        <img src="./img/Icon.png" alt="list icon">        
+        <img src="./img/Icon.png" alt="list icon" data-i18n-alt="alt.listIcon">        
     </div>
+
     <div class="sidebar">
         <div class="hideBar" onclick="toggleNavList()">
             <i class="fa-solid fa-xmark"></i>
         </div>
         <div class="sideBarPages">
             <ul>
-                <li class="homeBtn">Home</li>
-                <li class="aboutBtn">About Us</li>
-                <li class="academicsBtn home">Academics</li>
-                <li class="admissionBtn">Admission</li>
-                <li class="studentBtn">Student Life</li>
-                <li class="contactBtn">Contact</li>
+                <li class="nav-item lang" id="langSelector">
+                    <i class="fa-solid fa-language"></i>
+                    <div class="lang-dropdown">
+                        <ul id="languageList">
+                            <li data-lang="ar">
+                                <img src="./img/saudiArabia.jpg" alt="">
+                            </li>
+                            <li data-lang="tr">
+                                <img src="./img/turkeyjpg.jpg" alt="">
+                            </li>
+                            <li data-lang="en">
+                                <img src="./img/UKjpg.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="homeBtn" data-i18n="nav.home">Home</li>
+                <li class="aboutBtn" data-i18n="nav.about">About Us</li>
+                <li class="academicsBtn home" data-i18n="nav.academics">Academics</li>
+                <li class="admissionBtn" data-i18n="nav.admission">Admission</li>
+                <li class="studentBtn" data-i18n="nav.studentLife">Student Life</li>
+                <li class="contactBtn" data-i18n="nav.contact">Contact</li>
+                
             </ul>
         </div>
     </div>
@@ -33,105 +51,115 @@
     <header>
         <div class="joinNow">
             <div class="leftImg">
-                <img src="./img/Abstract Design.png" alt="Abstract Design">
-                <img src="./img/Abstract Design (2).png" alt="Abstract Design">
+                <img src="./img/Abstract Design.png" alt="Abstract Design" data-i18n-alt="alt.abstractDesign1">
+                <img src="./img/Abstract Design (2).png" alt="Abstract Design" data-i18n-alt="alt.abstractDesign2">
             </div>
 
             <div class="centerText">
-                <a href="#">Admission is Open, Grab your seat now <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#" data-i18n="joinNow.text">Admission is Open, Grab your seat now <i class="fa-solid fa-arrow-right"></i></a>
             </div>
 
             <div class="rightImg">
-                <img src="./img/Abstract Design (3).png" alt="Abstract Design">
-                <img src="./img/Abstract Design (1).png" alt="Abstract Design">
+                <img src="./img/Abstract Design (3).png" alt="Abstract Design" data-i18n-alt="alt.abstractDesign3">
+                <img src="./img/Abstract Design (1).png" alt="Abstract Design" data-i18n-alt="alt.abstractDesign4">
             </div>
         </div>
 
         <nav>
             <div class="logo">
-                <img src="./img/shape-14.png" alt="logo">
-                <p>Little Learners</p>
+                <img src="./img/shape-14.png" alt="logo" data-i18n-alt="alt.logo">
+                <p data-i18n="logo.text">Little Learners</p>
             </div>
             <div class="pages">
                 <ul>
-                    <li class="homeBtn">Home</li>
-                    <li class="aboutBtn">About Us</li>
-                    <li class="academicsBtn home">Academics</li>
-                    <li class="admissionBtn">Admission</li>
-                    <li class="studentBtn">Student Life</li>
-                    <li class="contactBtn">Contact</li>
+                    <li class="homeBtn" data-i18n="nav.home">Home</li>
+                    <li class="aboutBtn" data-i18n="nav.about">About Us</li>
+                    <li class="academicsBtn home" data-i18n="nav.academics">Academics</li>
+                    <li class="admissionBtn" data-i18n="nav.admission">Admission</li>
+                    <li class="studentBtn" data-i18n="nav.studentLife">Student Life</li>
+                    <li class="contactBtn" data-i18n="nav.contact">Contact</li>
+                    <li class="nav-item lang" id="langSelector">
+                        <i class="fa-solid fa-language"></i>
+                        <div class="lang-dropdown">
+                            <ul id="languageList">
+                                <li data-lang="ar">العربية</li>
+                                <li data-lang="en">English</li>
+                                <li data-lang="tr">Türkçe</li>
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </nav>
     </header>
 
     <div class="backToTop">
-        <img src="./img/backToTop.png" alt="back to top img">
+        <img src="./img/backToTop.png" alt="back to top img" data-i18n-alt="alt.backToTop">
     </div>
 
     <main>
         <div class="cornerImg">
-            <img src="./img/Abstract Design (5).png" alt="Abstract Design">
+            <img src="./img/Abstract Design (5).png" alt="Abstract Design" data-i18n="main2.cornerImgAlt">
         </div>
         <div class="aboutMainContent">
             <div class="mainTitle">
                 <div class="sub1">
-                    <p>Academics</p>
+                    <p data-i18n="main2.mainTitle.sub1">Academics</p>
                 </div>
-                <h2>Nurturing Young Minds for Success</h2>
+                <h2 data-i18n="main2.mainTitle.h2">Nurturing Young Minds for Success</h2>
             </div>
             <div class="description">
-                <p>Welcome to our Academics page, where we take pride in providing a comprehensive and stimulating educational experience for your child. Our kindergarten school's academic program is thoughtfully designed to foster a love for learning while building a strong foundation of essential skills and knowledge. From language arts and mathematics to science and social studies, our curriculum is carefully crafted to spark curiosity and encourage active exploration.</p>
+                <p data-i18n="main2.description">Welcome to our Academics page, where we take pride in providing a comprehensive and stimulating educational experience for your child. Our kindergarten school's academic program is thoughtfully designed to foster a love for learning while building a strong foundation of essential skills and knowledge. From language arts and mathematics to science and social studies, our curriculum is carefully crafted to spark curiosity and encourage active exploration.</p>
             </div>
         </div>
     </main>
 
     <section class="specialFeatures" id="features">
         <div class="sub1">
-            <p>Our Features</p>
+            <p data-i18n="specialFeatures.sub1">Our Features</p>
         </div>
         <div class="title">
-            <h2>Our Special Features</h2>
+            <h2 data-i18n="specialFeatures.title.h2">Our Special Features</h2>
         </div>
         <div class="sub2">
-            <p>Our kinder garden school provides a nurturing and stimulating environment, fostering a love for learning that lasts a lifetime. Join us as we embark on an exciting educational journey together!</p>
+            <p data-i18n="specialFeatures.sub2">Our kinder garden school provides a nurturing and stimulating environment, fostering a love for learning that lasts a lifetime. Join us as we embark on an exciting educational journey together!</p>
         </div>
 
         <div class="allFeatures">
             <div class="row">
                 <div class="featureCard">
                     <div class="cardIcon">
-                        <img src="./img/Academics/Icon Container.png" alt="Icon Container" class="icon">
+                        <img src="./img/Academics/Icon Container.png" alt="Icon Container" class="icon" data-i18n="specialFeatures.featuresCards.feature1.iconAlt">
                     </div>
                     <div class="cardHeader">
-                        <h3>Thematic Learning</h3>
+                        <h3 data-i18n="specialFeatures.featuresCards.feature1.h3">Thematic Learning</h3>
                     </div>
                     <div class="description">
-                        <p>Our curriculum is centered around engaging themes that capture children's imaginations. Each theme integrates multiple subjects, making learning enjoyable and relevant.</p>
+                        <p data-i18n="specialFeatures.featuresCards.feature1.description">Our curriculum is centered around engaging themes that capture children's imaginations. Each theme integrates multiple subjects, making learning enjoyable and relevant.</p>
                     </div>
                 </div>
-                
+
                 <div class="featureCard">
                     <div class="cardIcon">
-                        <img src="./img/Academics/Icon Container (1).png" alt="Icon Container" class="icon">
+                        <img src="./img/Academics/Icon Container (1).png" alt="Icon Container" class="icon" data-i18n="specialFeatures.featuresCards.feature2.iconAlt">
                     </div>
                     <div class="cardHeader">
-                        <h3>STEAM Education</h3>
+                        <h3 data-i18n="specialFeatures.featuresCards.feature2.h3">STEAM Education</h3>
                     </div>
                     <div class="description">
-                        <p>We offer innovative STEAM (Science, Technology, Engineering, Arts, and Mathematics) programs that promote hands-on exploration, critical thinking, and problem-solving skills.</p>
+                        <p data-i18n="specialFeatures.featuresCards.feature2.description">We offer innovative STEAM (Science, Technology, Engineering, Arts, and Mathematics) programs that promote hands-on exploration, critical thinking, and problem-solving skills.</p>
                     </div>
                 </div>
-            
+
                 <div class="featureCard">
                     <div class="cardIcon">
-                        <img src="./img/Academics/Icon Container (2).png" alt="Icon Container" class="icon">
+                        <img src="./img/Academics/Icon Container (2).png" alt="Icon Container" class="icon" data-i18n="specialFeatures.featuresCards.feature3.iconAlt">
                     </div>
                     <div class="cardHeader">
-                        <h3>Language Immersion</h3>
+                        <h3 data-i18n="specialFeatures.featuresCards.feature3.h3">Language Immersion</h3>
                     </div>
                     <div class="description">
-                        <p>Through language immersion programs, children have the opportunity to learn a second language, enhancing cognitive development and global awareness.</p>
+                        <p data-i18n="specialFeatures.featuresCards.feature3.description">Through language immersion programs, children have the opportunity to learn a second language, enhancing cognitive development and global awareness.</p>
                     </div>
                 </div>
             </div>
@@ -139,131 +167,134 @@
             <div class="row">
                 <div class="featureCard">
                     <div class="cardIcon">
-                        <img src="./img/Academics/Icon Container (3).png" alt="Icon Container" class="icon">
+                        <img src="./img/Academics/Icon Container (3).png" alt="Icon Container" class="icon" data-i18n="specialFeatures.featuresCards.feature4.iconAlt">
                     </div>
                     <div class="cardHeader">
-                        <h3>Art and Creativity</h3>
+                        <h3 data-i18n="specialFeatures.featuresCards.feature4.h3">Art and Creativity</h3>
                     </div>
                     <div class="description">
-                        <p>Art is celebrated at Little Learners Academy. Our art-focused activities encourage self-expression, creativity, and the appreciation of various art forms.</p>
+                        <p data-i18n="specialFeatures.featuresCards.feature4.description">Art is celebrated at Little Learners Academy. Our art-focused activities encourage self-expression, creativity, and the appreciation of various art forms.</p>
                     </div>
                 </div>
 
                 <div class="featureCard">
                     <div class="cardIcon">
-                        <img src="./img/Academics/Icon Container (4).png" alt="Icon Container" class="icon">
+                        <img src="./img/Academics/Icon Container (4).png" alt="Icon Container" class="icon" data-i18n="specialFeatures.featuresCards.feature5.iconAlt">
                     </div>
                     <div class="cardHeader">
-                        <h3>Outdoor Education</h3>
+                        <h3 data-i18n="specialFeatures.featuresCards.feature5.h3">Outdoor Education</h3>
                     </div>
                     <div class="description">
-                        <p>Our expansive outdoor learning spaces provide a stimulating environment for children to explore nature, fostering a connection with the environment.</p>
+                        <p data-i18n="specialFeatures.featuresCards.feature5.description">Our expansive outdoor learning spaces provide a stimulating environment for children to explore nature, fostering a connection with the environment.</p>
                     </div>
                 </div>
 
                 <div class="featureCard">
                     <div class="cardIcon">
-                        <img src="./img/Academics/Icon Container (5).png" alt="Icon Container" class="icon">
+                        <img src="./img/Academics/Icon Container (5).png" alt="Icon Container" class="icon" data-i18n="specialFeatures.featuresCards.feature6.iconAlt">
                     </div>
                     <div class="cardHeader">
-                        <h3>Play-Based Learning</h3>
+                        <h3 data-i18n="specialFeatures.featuresCards.feature6.h3">Play-Based Learning</h3>
                     </div>
                     <div class="description">
-                        <p>Play is an integral part of early childhood education. Our play-based approach enhances social skills, emotional development, and imaginative thinking.</p>
+                        <p data-i18n="specialFeatures.featuresCards.feature6.description">Play is an integral part of early childhood education. Our play-based approach enhances social skills, emotional development, and imaginative thinking.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+
     <section class="takenClasses">
         <div class="sub1">
-            <p>Our Features</p>
+            <p data-i18n="takenClasses.sub1">Our Features</p>
         </div>
         <div class="title">
-            <h2>What Students Learn</h2>
+            <h2 data-i18n="takenClasses.title.h2">What Students Learn</h2>
         </div>
         <div class="sub2">
-            <p>At Little Learners Academy, we strive to cultivate a love for learning and equip children with essential skills for their future success. Our academic programs cover a wide range of subjects, allowing students to develop a strong foundation and discover their interests. Some key areas of learning include</p>
+            <p data-i18n="takenClasses.sub2">At Little Learners Academy, we strive to cultivate a love for learning and equip children with essential skills for their future success. Our academic programs cover a wide range of subjects, allowing students to develop a strong foundation and discover their interests. Some key areas of learning include</p>
         </div>
+
         <div class="allClasses">
             <div class="row">
                 <div class="classCard">
                     <div class="backDiv"></div>
                     <div class="classImg">
-                        <img src="./img/Academics/class.png" alt="class Img">
+                        <img src="./img/Academics/class.png" alt="class Img" data-i18n="takenClasses.classes.class1.imgAlt">
                     </div>
                     <div class="className">
-                        <h3>Language Arts</h3>
+                        <h3 data-i18n="takenClasses.classes.class1.h3">Language Arts</h3>
                     </div>
                     <div class="description">
-                        <p>Reading, writing, storytelling, and communication skills.</p>
-                    </div>
-                </div>
-                
-                <div class="classCard">
-                    <div class="backDiv"></div>
-                    <div class="classImg">
-                        <img src="./img/Academics/class(1).png" alt="class Img">
-                    </div>
-                    <div class="className">
-                        <h3>Mathematics</h3>
-                    </div>
-                    <div class="description">
-                        <p>Number sense, basic operations, problem-solving, and logic.</p>
+                        <p data-i18n="takenClasses.classes.class1.description">Reading, writing, storytelling, and communication skills.</p>
                     </div>
                 </div>
 
                 <div class="classCard">
                     <div class="backDiv"></div>
                     <div class="classImg">
-                        <img src="./img/Academics/class (2).png" alt="class Img">
+                        <img src="./img/Academics/class(1).png" alt="class Img" data-i18n="takenClasses.classes.class2.imgAlt">
                     </div>
                     <div class="className">
-                        <h3>Science</h3>
+                        <h3 data-i18n="takenClasses.classes.class2.h3">Mathematics</h3>
                     </div>
                     <div class="description">
-                        <p>Exploring the natural world through hands-on experiments and investigations.</p>
+                        <p data-i18n="takenClasses.classes.class2.description">Number sense, basic operations, problem-solving, and logic.</p>
+                    </div>
+                </div>
+
+                <div class="classCard">
+                    <div class="backDiv"></div>
+                    <div class="classImg">
+                        <img src="./img/Academics/class (2).png" alt="class Img" data-i18n="takenClasses.classes.class3.imgAlt">
+                    </div>
+                    <div class="className">
+                        <h3 data-i18n="takenClasses.classes.class3.h3">Science</h3>
+                    </div>
+                    <div class="description">
+                        <p data-i18n="takenClasses.classes.class3.description">Exploring the natural world through hands-on experiments and investigations.</p>
                     </div>
                 </div>
             </div>
+
             <div class="row">
                 <div class="classCard">
                     <div class="backDiv"></div>
                     <div class="classImg">
-                        <img src="./img/Academics/class (3).png" alt="class Img">
+                        <img src="./img/Academics/class (3).png" alt="class Img" data-i18n="takenClasses.classes.class4.imgAlt">
                     </div>
                     <div class="className">
-                        <h3>Social Studies</h3>
+                        <h3 data-i18n="takenClasses.classes.class4.h3">Social Studies</h3>
                     </div>
                     <div class="description">
-                        <p>Cultivating an understanding of diverse cultures and communities.</p>
-                    </div>
-                </div>
-                
-                <div class="classCard">
-                    <div class="backDiv"></div>
-                    <div class="classImg">
-                        <img src="./img/Academics/class (4).png" alt="class Img">
-                    </div>
-                    <div class="className">
-                        <h3>Arts and Crafts</h3>
-                    </div>
-                    <div class="description">
-                        <p>Encouraging creativity through various art forms and crafts.</p>
+                        <p data-i18n="takenClasses.classes.class4.description">Cultivating an understanding of diverse cultures and communities.</p>
                     </div>
                 </div>
 
                 <div class="classCard">
                     <div class="backDiv"></div>
                     <div class="classImg">
-                        <img src="./img/Academics/class (5).png" alt="class Img">
+                        <img src="./img/Academics/class (4).png" alt="class Img" data-i18n="takenClasses.classes.class5.imgAlt">
                     </div>
                     <div class="className">
-                        <h3>Physical Education</h3>
+                        <h3 data-i18n="takenClasses.classes.class5.h3">Arts and Crafts</h3>
                     </div>
                     <div class="description">
-                        <p>Promoting physical fitness, coordination, and teamwork.</p>
+                        <p data-i18n="takenClasses.classes.class5.description">Encouraging creativity through various art forms and crafts.</p>
+                    </div>
+                </div>
+
+                <div class="classCard">
+                    <div class="backDiv"></div>
+                    <div class="classImg">
+                        <img src="./img/Academics/class (5).png" alt="class Img" data-i18n="takenClasses.classes.class6.imgAlt">
+                    </div>
+                    <div class="className">
+                        <h3 data-i18n="takenClasses.classes.class6.h3">Physical Education</h3>
+                    </div>
+                    <div class="description">
+                        <p data-i18n="takenClasses.classes.class6.description">Promoting physical fitness, coordination, and teamwork.</p>
                     </div>
                 </div>
             </div>
@@ -272,143 +303,141 @@
 
     <section class="roomGallery" id="gallery">
         <div class="sub1">
-            <p>Our Gallery</p>
+            <p data-i18n="roomGallery.sub1">Our Gallery</p>
         </div>
         <div class="title">
-            <h2>Our Rooms Gallery</h2>
+            <h2 data-i18n="roomGallery.title.h2">Our Rooms Gallery</h2>
         </div>
         <div class="sub2">
-            <p>Step into our Gallery and immerse yourself in a visual journey of cherished moments and unforgettable experiences at our kindergarten school.</p>
+            <p data-i18n="roomGallery.sub2">Step into our Gallery and immerse yourself in a visual journey of cherished moments and unforgettable experiences at our kindergarten school.</p>
         </div>
 
         <div class="roomsContainer">
-            
             <div class="rooms">
                 <div class="roomsImgs">
-                    <img src="./img/Academics/classroom.png" alt="room" class="firstImg">
-                    <img src="./img/Academics/classroom (1).png" alt="room" class="otherImg">
-                    <img src="./img/Academics/classroom (2).png" alt="room" class="otherImg">
-                    <img src="./img/Academics/classroom (3).png" alt="room" class="otherImg">
+                    <img src="./img/Academics/classroom.png" alt="room" class="firstImg" data-i18n="roomGallery.rooms.room1.imgAlt1">
+                    <img src="./img/Academics/classroom (1).png" alt="room" class="otherImg" data-i18n="roomGallery.rooms.room1.imgAlt2">
+                    <img src="./img/Academics/classroom (2).png" alt="room" class="otherImg" data-i18n="roomGallery.rooms.room1.imgAlt3">
+                    <img src="./img/Academics/classroom (3).png" alt="room" class="otherImg" data-i18n="roomGallery.rooms.room1.imgAlt4">
                 </div>
                 <div class="roomType">
-                    <h3>Classrooms</h3>
-                    <p>Our well-equipped classrooms are designed to provide a nurturing and stimulating learning environment. Each classroom is thoughtfully arranged to inspire creativity, curiosity, and engagement.</p>
+                    <h3 data-i18n="roomGallery.rooms.room1.h3">Classrooms</h3>
+                    <p data-i18n="roomGallery.rooms.room1.description">Our well-equipped classrooms are designed to provide a nurturing and stimulating learning environment. Each classroom is thoughtfully arranged to inspire creativity, curiosity, and engagement.</p>
                 </div>
             </div>
 
             <div class="rooms">
                 <div class="roomsImgs">
-                    <img src="./img/Academics/library.png" alt="room" class="firstImg">
-                    <img src="./img/Academics/library (1).png" alt="room" class="otherImg">
-                    <img src="./img/Academics/library (2).png" alt="room" class="otherImg">
-                    <img src="./img/Academics/library (3).png" alt="room" class="otherImg">
+                    <img src="./img/Academics/library.png" alt="room" class="firstImg" data-i18n="roomGallery.rooms.room2.imgAlt1">
+                    <img src="./img/Academics/library (1).png" alt="room" class="otherImg" data-i18n="roomGallery.rooms.room2.imgAlt2">
+                    <img src="./img/Academics/library (2).png" alt="room" class="otherImg" data-i18n="roomGallery.rooms.room2.imgAlt3">
+                    <img src="./img/Academics/library (3).png" alt="room" class="otherImg" data-i18n="roomGallery.rooms.room2.imgAlt4">
                 </div>
                 <div class="roomType">
-                    <h3>Library</h3>
-                    <p>Our expansive library is a treasure trove of books, fostering a love for reading and supporting students' literacy development.</p>
+                    <h3 data-i18n="roomGallery.rooms.room2.h3">Library</h3>
+                    <p data-i18n="roomGallery.rooms.room2.description">Our expansive library is a treasure trove of books, fostering a love for reading and supporting students' literacy development.</p>
                 </div>
             </div>
 
             <div class="rooms">
                 <div class="roomsImgs">
-                    <img src="./img/Academics/scinceLab.png" alt="room" class="firstImg">
-                    <img src="./img/Academics/scinceLab (1).png" alt="room" class="otherImg">
-                    <img src="./img/Academics/scinceLab (2).png" alt="room" class="otherImg">
-                    <img src="./img/Academics/scinceLab (3).png" alt="room" class="otherImg">
+                    <img src="./img/Academics/scinceLab.png" alt="room" class="firstImg" data-i18n="roomGallery.rooms.room3.imgAlt1">
+                    <img src="./img/Academics/scinceLab (1).png" alt="room" class="otherImg" data-i18n="roomGallery.rooms.room3.imgAlt2">
+                    <img src="./img/Academics/scinceLab (2).png" alt="room" class="otherImg" data-i18n="roomGallery.rooms.room3.imgAlt3">
+                    <img src="./img/Academics/scinceLab (3).png" alt="room" class="otherImg" data-i18n="roomGallery.rooms.room3.imgAlt4">
                 </div>
                 <div class="roomType">
-                    <h3>Science Lab</h3>
-                    <p>Our hands-on science lab allows students to conduct experiments and explore scientific concepts in a fun and interactive way.</p>
+                    <h3 data-i18n="roomGallery.rooms.room3.h3">Science Lab</h3>
+                    <p data-i18n="roomGallery.rooms.room3.description">Our hands-on science lab allows students to conduct experiments and explore scientific concepts in a fun and interactive way.</p>
                 </div>
             </div>
 
             <div class="rooms">
                 <div class="roomsImgs">
-                    <img src="./img/Academics/computerLab.png" alt="room" class="firstImg">
-                    <img src="./img/Academics/computerLab (1).png" alt="room" class="otherImg">
-                    <img src="./img/Academics/computerLab (2).png" alt="room" class="otherImg">
-                    <img src="./img/Academics/computerLab (3).png" alt="room" class="otherImg">
+                    <img src="./img/Academics/computerLab.png" alt="room" class="firstImg" data-i18n="roomGallery.rooms.room4.imgAlt1">
+                    <img src="./img/Academics/computerLab (1).png" alt="room" class="otherImg" data-i18n="roomGallery.rooms.room4.imgAlt2">
+                    <img src="./img/Academics/computerLab (2).png" alt="room" class="otherImg" data-i18n="roomGallery.rooms.room4.imgAlt3">
+                    <img src="./img/Academics/computerLab (3).png" alt="room" class="otherImg" data-i18n="roomGallery.rooms.room4.imgAlt4">
                 </div>
                 <div class="roomType">
-                    <h3>Computer Lab</h3>
-                    <p>Equipped with age-appropriate technology, the computer lab enhances students' digital literacy and computational skills</p>
+                    <h3 data-i18n="roomGallery.rooms.room4.h3">Computer Lab</h3>
+                    <p data-i18n="roomGallery.rooms.room4.description">Equipped with age-appropriate technology, the computer lab enhances students' digital literacy and computational skills.</p>
                 </div>
             </div>
 
             <div class="rooms">
                 <div class="roomsImgs">
-                    <img src="./img/Academics/garden.png" alt="room" class="firstImg">
-                    <img src="./img/Academics/garden (1).png" alt="room" class="otherImg">
-                    <img src="./img/Academics/garden (2).png" alt="room" class="otherImg">
-                    <img src="./img/Academics/garden (3).png" alt="room" class="otherImg">
+                    <img src="./img/Academics/garden.png" alt="room" class="firstImg" data-i18n="roomGallery.rooms.room5.imgAlt1">
+                    <img src="./img/Academics/garden (1).png" alt="room" class="otherImg" data-i18n="roomGallery.rooms.room5.imgAlt2">
+                    <img src="./img/Academics/garden (2).png" alt="room" class="otherImg" data-i18n="roomGallery.rooms.room5.imgAlt3">
+                    <img src="./img/Academics/garden (3).png" alt="room" class="otherImg" data-i18n="roomGallery.rooms.room5.imgAlt4">
                 </div>
                 <div class="roomType">
-                    <h3>Garden and Nature Area</h3>
-                    <p>Our garden and nature area offer an opportunity for children to connect with nature and learn about plants and the environment.</p>
+                    <h3 data-i18n="roomGallery.rooms.room5.h3">Garden and Nature Area</h3>
+                    <p data-i18n="roomGallery.rooms.room5.description">Our garden and nature area offer an opportunity for children to connect with nature and learn about plants and the environment.</p>
                 </div>
             </div>
-
         </div>
     </section>
-    
 
     <footer class="footer">
         <div class="footerContainer">
             <div class="footerBrand">
-              <div class="logo">
-                <img src="./img/shape-14.png" alt="logo">
-                <h3>Little Learners</h3>
-              </div>
-              <p>We believe in the power of play to foster creativity, problem-solving skills, and imagination.</p>
+                <div class="logo">
+                    <img src="./img/shape-14.png" alt="logo">
+                    <h3 data-i18n="footer.brand.name">Little Learners</h3>
+                </div>
+                <p data-i18n="footer.brand.description">
+                    We believe in the power of play to foster creativity, problem-solving skills, and imagination.
+                </p>
 
-              <ul class="contactInfo">
-                <li><i class="fa-solid fa-envelope"></i> hello@littlelearners.com</li>
-                <li><i class="fa-solid fa-phone"></i> +91 91813 23 2309</li>
-                <li><i class="fa-solid fa-location-dot"></i> Somewhere in the World</li>
-              </ul>
+                <ul class="contactInfo">
+                    <li><i class="fa-solid fa-envelope"></i> <span data-i18n="footer.contact.email">hello@littlelearners.com</span></li>
+                    <li><i class="fa-solid fa-phone"></i> <span data-i18n="footer.contact.phone">+91 91813 23 2309</span></li>
+                    <li><i class="fa-solid fa-location-dot"></i> <span data-i18n="footer.contact.location">Somewhere in the World</span></li>
+                </ul>
             </div>
 
             <div class="footerLinks">
-              <div>
-                <h4>Home</h4>
-                <ul>
-                  <li><a href="academics.html#features">Features</a></li>
-                  <li><a href="index.html#testimonials">Our Testimonials</a></li>
-                  <li><a href="index.html#FAQ">FAQ</a></li>
-                </ul>
-              </div>
-              <div>
-                <h4>About Us</h4>
-                <ul>
-                  <li><a href="about.html#missionAndVision">Our Mission</a></li>
-                  <li><a href="about.html#awardsAndRecognition">Awards and Recognitions</a></li>
-                  <li><a href="about.html#history">History</a></li>
-                  <li><a href="about.html#team">Teachers</a></li>
-                </ul>
-              </div>
-              <div>
-                <h4>Academics</h4>
-                <ul>
-                  <li><a href="admission.html#specialFeatures">Special Features</a></li>
-                  <li><a href="academics.html#gallery">Gallery</a></li>
-                </ul>
-              </div>
-              <div>
-                <h4>Contact Us</h4>
-                <ul>
-                  <li><a href="contact.html">Information</a></li>
-                  <li><a href="contact.html">Map &amp; Direction</a></li>
-                </ul>
-              </div>
+                <div>
+                    <h4 data-i18n="footer.links.home.title">Home</h4>
+                    <ul>
+                        <li><a href="academics.html#features" data-i18n="footer.links.home.features">Features</a></li>
+                        <li><a href="index.html#testimonials" data-i18n="footer.links.home.testimonials">Our Testimonials</a></li>
+                        <li><a href="index.html#FAQ" data-i18n="footer.links.home.faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 data-i18n="footer.links.about.title">About Us</h4>
+                    <ul>
+                        <li><a href="about.html#missionAndVision" data-i18n="footer.links.about.mission">Our Mission</a></li>
+                        <li><a href="about.html#awardsAndRecognition" data-i18n="footer.links.about.awards">Awards and Recognitions</a></li>
+                        <li><a href="about.html#history" data-i18n="footer.links.about.history">History</a></li>
+                        <li><a href="about.html#team" data-i18n="footer.links.about.teachers">Teachers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 data-i18n="footer.links.academics.title">Academics</h4>
+                    <ul>
+                        <li><a href="admission.html#specialFeatures" data-i18n="footer.links.academics.features">Special Features</a></li>
+                        <li><a href="academics.html#gallery" data-i18n="footer.links.academics.gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 data-i18n="footer.links.contact.title">Contact Us</h4>
+                    <ul>
+                        <li><a href="contact.html" data-i18n="footer.links.contact.info">Information</a></li>
+                        <li><a href="contact.html" data-i18n="footer.links.contact.map">Map & Direction</a></li>
+                    </ul>
+                </div>
             </div>
-
         </div>
 
         <div class="footerBottom">
             <div class="policies">
-                <a href="#">Terms of Service</a> |
-                <a href="#">Privacy Policy</a> |
-                <a href="#">Cookie Policy</a>
+                <a href="#" data-i18n="footer.policies.terms">Terms of Service</a> |
+                <a href="#" data-i18n="footer.policies.privacy">Privacy Policy</a> |
+                <a href="#" data-i18n="footer.policies.cookie">Cookie Policy</a>
             </div>
 
             <div class="socials">
@@ -417,11 +446,13 @@
                 <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
         </div>
-    
-        <p class="copyright">Copyright © [2023] Little Learners Academy. All rights reserved.</p>
+
+        <p class="copyright" data-i18n="footer.copyright">
+            Copyright © [2023] Little Learners Academy. All rights reserved.
+        </p>
     </footer>
 
-
-    <script src="js.js"></script>
+    <script src="js/js.js"></script>
+    <SCript src="js/lang.js"></SCript>
 </body>
 </html>

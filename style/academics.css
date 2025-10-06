@@ -131,13 +131,17 @@
     color: var(--gray20);
 }
 
+.roomsContainer{
+    width: 90%;
+}
+
 .rooms{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: end;
     height: 300px;
-    width: 90%;
+    width: 90% !important;
     box-sizing: border-box;
     padding: 20px;
     padding-bottom: 35px;

@@ -1,0 +1,527 @@
+{
+  "title": "Home Page",
+  "alt": {
+    "listIcon": "List Icon",
+    "abstractDesign1": "Abstract Design",
+    "abstractDesign2": "Abstract Design",
+    "abstractDesign3": "Abstract Design",
+    "abstractDesign4": "Abstract Design",
+    "logo": "Logo",
+    "backToTop": "Back to top",
+    "mainImg": "Main image",
+    "holisticIcon": "Holistic learning icon",
+    "experiencedIcon": "Experienced educator icon",
+    "nurturingIcon": "Nurturing environment icon",
+    "playIcon": "Play-based learning icon",
+    "individualIcon": "Individualized attention icon",
+    "parentIcon": "Parent involvement icon"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "academics": "Academics",
+    "admission": "Admission",
+    "studentLife": "Student Life",
+    "contact": "Contact"
+  },
+  "joinNow": {
+    "text": "Admission is Open, Grab your seat now"
+  },
+  "logo": {
+    "text": "Little Learners"
+  },
+  "main": {
+    "welcome": "Welcome to Little Learners Academy",
+    "description": "Our kinder garden school provides a nurturing and stimulating environment, fostering a love for learning that lasts a lifetime. Join us as we embark on an exciting educational journey together!"
+  },
+  "mainTitle": {
+  "fullTitle": "Where Young Minds Blossom and Dreams Take Flight."
+  },
+  "achievements": {
+    "students": "Students Passed Out",
+    "awards": "Awards & Recognitions",
+    "experience": "Experience Education"
+  },
+  "benefits": {
+    "subtitle1": "Children Deserve Bright Future",
+    "title": "Our Benefits",
+    "subtitle2": "With a dedicated team of experienced educators, state-of-the-art facilities, and a comprehensive curriculum, we aim to lay a strong foundation for your child's future.",
+    "holistic": {
+      "title": "Holistic Learning Approach",
+      "description": "Our curriculum focuses on nurturing cognitive, social, emotional, and physical development, ensuring a well-rounded education."
+    },
+    "educators": {
+      "title": "Experienced Educators",
+      "description": "Our passionate and qualified teachers create a supportive and stimulating learning environment."
+    },
+    "nurturing": {
+      "title": "Nurturing Environment",
+      "description": "We prioritize safety and provide a warm and caring atmosphere for every child."
+    },
+    "play": {
+      "title": "Play-Based Learning",
+      "description": "We believe in the power of play to foster creativity, problem-solving skills, and imagination."
+    },
+    "individual": {
+      "title": "Individualized Attention",
+      "description": "Our small class sizes enable personalized attention, catering to each child's unique needs."
+    },
+    "parent": {
+      "title": "Parent Involvement",
+      "description": "We foster a strong parent-school partnership to ensure seamless communication and collaboration."
+    }
+  },
+  "testimonials": {
+    "subtitle": "Their Happy Words 🤗",
+    "title": "Our Testimonials",
+    "description": "Our testimonials are heartfelt reflections of the nurturing environment we provide, where children flourish both academically and emotionally.",
+    "clients": {
+      "jennifer": {
+        "name": "Jennifer B",
+        "opinion": "Little Learners Academy has been a second home for my child. The caring staff and engaging programs have made her excited to go to school every day!"
+      },
+      "david": {
+        "name": "David K",
+        "opinion": "Choosing Little Learners Academy for my daughter was the best decision. She has thrived in their nurturing and stimulating environment."
+      },
+      "emily": {
+        "name": "Emily L",
+        "opinion": "My son's social and academic growth has been remarkable since joining Little Learners Academy. I am grateful for the supportive and dedicated teachers."
+      }
+    }
+  },
+  "faq": {
+    "subtitle": "Solutions For The Doubts",
+    "title": "Frequently Asked Questions",
+    "description": "Find all the essential information you need in our FAQ section, designed to address the most frequently asked questions and help you make informed decisions for your child's education.",
+    "questions": {
+      "hours": {
+        "question": "What are the school hours at Little Learners Academy?",
+        "answer": "Our school hours are from 8:00 AM to 3:00 PM, Monday to Friday. We also offer extended care options for parents who need early drop-off or late pick-up."
+      },
+      "allergies": {
+        "question": "How do you handle food allergies and dietary restrictions?",
+        "answer": "Our school has strict protocols for handling allergies and dietary restrictions, ensuring all meals are safe and monitored."
+      },
+      "uniform": {
+        "question": "Is there a uniform policy for students?",
+        "answer": "Students are required to wear the school uniform to promote a sense of unity and belonging."
+      }
+    }
+  },
+  "pages": {
+    "subtitle": "Explore More",
+    "title": "Navigate through our Pages",
+    "description": "Your gateway to discovering a wealth of valuable information about our kindergarten school, feel free to explore and learn more about the enriching experiences that await your child.",
+    "cards": {
+      "about": {
+        "title": "About Us",
+        "description": "Discover our Mission, Values, and our unwavering commitment to providing the best learning experience for your child. Learn about our passionate educators and our engaging approach to early education.",
+        "button": "Learn More"
+      },
+      "academics": {
+        "title": "Academics",
+        "description": "Delve into our comprehensive academic programs designed to stimulate young minds, foster creativity, and encourage a love for learning.",
+        "button": "Learn More"
+      },
+      "studentLife": {
+        "title": "Student Life",
+        "description": "Peek into the vibrant and enriching world of Student Life at Little Learners Academy.",
+        "button": "Student Life"
+      },
+      "admission": {
+        "title": "Admission",
+        "description": "Learn about our Enrollment Process and how to secure your child's place at Little Learners Academy.",
+        "button": "Admission"
+      }
+    }
+  },
+  "footer": {
+    "brand": {
+      "name": "Little Learners",
+      "description": "We believe in the power of play to foster creativity, problem-solving skills, and imagination."
+    },
+    "contact": {
+      "email": "hello@littlelearners.com",
+      "phone": "+91 91813 23 2309",
+      "location": "Somewhere in the World"
+    },
+    "links": {
+      "home": {
+        "title": "Home",
+        "features": "Features",
+        "testimonials": "Our Testimonials",
+        "faq": "FAQ"
+      },
+      "about": {
+        "title": "About Us",
+        "mission": "Our Mission",
+        "awards": "Awards and Recognitions",
+        "history": "History",
+        "teachers": "Teachers"
+      },
+      "academics": {
+        "title": "Academics",
+        "features": "Special Features",
+        "gallery": "Gallery"
+      },
+      "contact": {
+        "title": "Contact Us",
+        "info": "Information",
+        "map": "Map & Direction"
+      }
+    },
+    "policies": {
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy",
+      "cookie": "Cookie Policy"
+    },
+    "copyright": "Copyright © [2023] Little Learners Academy. All rights reserved."
+    },
+
+
+
+
+    "comment2":{
+    "ABOUT US PAGE": ""
+  },
+
+
+
+
+
+  "overview_sub1": "Overview",
+  "overview_title": "Welcome to Little Learners Academy",
+  "overview_description": "A leading kindergarten school dedicated to providing a nurturing and stimulating environment for young learners. With a commitment to excellence in early education, we believe in shaping curious minds and building a strong foundation for a lifelong love of learning. Our holistic approach fosters intellectual, social, emotional, and physical development, ensuring that each child reaches their full potential.",
+  
+  "mission_sub1": "Mission & Visions",
+  "mission_title": "Our Mission & Visions",
+  "mission_intro": "We are here to provide a nurturing and inclusive environment where young minds can thrive, fostering a love for learning and personal growth.",
+  "mission_card_title": "Mission",
+  "mission_card_description": "At Little Learners Academy, our mission is to inspire a passion for learning and empower young minds to become confident, compassionate, and creative individuals. We strive to create a safe and inclusive space where children thrive academically, socially, and emotionally, setting the stage for a successful educational journey.",
+  "vision_card_title": "Vision",
+  "vision_card_description": "Our vision is to be a beacon of educational excellence, where children are encouraged to explore, discover, and express their unique talents. We aim to foster a generation of lifelong learners equipped with critical thinking, empathy, and a deep appreciation for diversity.",
+  
+  "awards_sub1": "Our Achievements",
+  "awards_title": "Our Awards and Recognitions",
+  "awards_description": "Little Learners Academy takes pride in our commitment to delivering high-quality education and outstanding student experiences. We are honored to have received various awards and recognitions for our dedication to early childhood education. These accolades reflect our team's relentless efforts in creating an exceptional learning environment for our students.",
+  "award1_title": "Outstanding Early Childhood Education Award",
+  "award1_description": "Presented by the National Association for the Education of Young Children (NAEYC) in recognition of Little Learners Academy's commitment to delivering exceptional early childhood education and fostering a nurturing learning environment.",
+  "award2_title": "Innovative STEAM Education Award",
+  "award2_description": "Awarded by the Education Excellence Association for our pioneering efforts in introducing innovative STEAM (Science, Technology, Engineering, Arts, and Mathematics) programs that ignite creativity and critical thinking in young learners.",
+  "award3_title": "Environmental Stewardship Award",
+  "award3_description": "Received from the Green Earth Society for our dedication to environmental education, sustainable practices, and fostering a love for nature in our students.",
+  
+  "history_sub1": "Our Progressive Journey",
+  "history_title": "Our History",
+  "history_intro": "Founded with a passion for early education in 2005, our kindergarten school boasts a rich history of empowering young learners to reach their potential through innovative teaching methods and a supportive learning environment.",
+  "history_2023_title": "Resilience and Future Horizons",
+  "history_2023_text": "Adapting to new challenges, we remained committed to our mission of providing an exceptional early education. Looking ahead with optimism, we envision a future filled with boundless possibilities as we continue shaping the leaders and thinkers of tomorrow.",
+  "history_2017_title": "Innovation and Technology",
+  "history_2017_text": "Innovation became the driving force behind our kindergarten's progress from 2016 to 2020. Embracing the latest educational technologies, we crafted engaging and interactive learning experiences for our students.",
+  "history_2012_title": "Expansion and Recognition",
+  "history_2012_text": "These years marked a period of expansion and recognition for our school. As we extended our facilities and enhanced our curriculum, we received accolades for our commitment to quality education and innovative teaching methodologies.",
+  "history_2005_title": "Inception and Growth",
+  "history_2005_text": "Established in 2005, our kindergarten school began its journey with a vision to provide a nurturing space for young minds to explore, learn, and grow. Over the next five years, we witnessed significant growth.",
+  
+  "team_sub1": "Our Teachers With Expertise",
+  "team_title": "Our Team Members",
+  "team_intro": "At Little Learners Academy, our teaching team is the heart of our educational journey. We take great pride in employing highly qualified and passionate educators who possess a deep understanding of early childhood development. Our teachers create a warm and engaging atmosphere, encouraging curiosity, instilling confidence, and fostering a love for learning.",
+  
+  "teacher1_name": "Mr. David Roberts",
+  "teacher1_qualification": "Qualification: Master's Degree in Elementary Education",
+  "teacher1_bio": "With a strong background in elementary education, Mr. David brings a creative and interactive teaching style to his classroom. His enthusiasm for learning inspires students to ask questions and think critically.",
+  
+  "teacher2_name": "Mr. Michael Turner",
+  "teacher2_qualification": "Qualification: Bachelor's Degree in Physical Education",
+  "teacher2_bio": "Mr. Michael's passion for physical fitness and sports shines through in his energetic classes. He encourages students to stay active, promoting teamwork and a healthy lifestyle.",
+  
+  "teacher3_name": "Mr. William Parker",
+  "teacher3_qualification": "Qualification: Bachelor's Degree in Fine Arts",
+  "teacher3_bio": "Mr. William's background in fine arts brings creativity and imagination to his classroom. Through art projects and activities, he nurtures the artistic expression and self-confidence of his students.",
+
+ 
+  
+  "comment3":{
+    "ACADEMIC PAGE": ""
+  },
+
+
+
+  "main2": {
+    "cornerImgAlt": "Abstract Design",
+    "mainTitle": {
+      "sub1": "Academics",
+      "h2": "Nurturing Young Minds for Success"
+    },
+    "description": "Welcome to our Academics page, where we take pride in providing a comprehensive and stimulating educational experience for your child. Our kindergarten school's academic program is thoughtfully designed to foster a love for learning while building a strong foundation of essential skills and knowledge. From language arts and mathematics to science and social studies, our curriculum is carefully crafted to spark curiosity and encourage active exploration."
+  },
+  "specialFeatures": {
+    "sub1": "Our Features",
+    "title": {
+      "h2": "Our Special Features"
+    },
+    "sub2": "Our kinder garden school provides a nurturing and stimulating environment, fostering a love for learning that lasts a lifetime. Join us as we embark on an exciting educational journey together!",
+    "featuresCards": {
+      "feature1":{
+        "h3": "Thematic Learning",
+        "description": "Our curriculum is centered around engaging themes that capture children's imaginations. Each theme integrates multiple subjects, making learning enjoyable and relevant.",
+        "iconAlt": "Icon Container"
+      },
+      "feature2":{
+        "h3": "STEAM Education",
+        "description": "We offer innovative STEAM (Science, Technology, Engineering, Arts, and Mathematics) programs that promote hands-on exploration, critical thinking, and problem-solving skills.",
+        "iconAlt": "Icon Container"
+      },
+      "feature3":{
+        "h3": "Language Immersion",
+        "description": "Through language immersion programs, children have the opportunity to learn a second language, enhancing cognitive development and global awareness.",
+        "iconAlt": "Icon Container"
+      },
+      "feature4":{
+        "h3": "Art and Creativity",
+        "description": "Art is celebrated at Little Learners Academy. Our art-focused activities encourage self-expression, creativity, and the appreciation of various art forms.",
+        "iconAlt": "Icon Container"
+      },
+      "feature5":{
+        "h3": "Outdoor Education",
+        "description": "Our expansive outdoor learning spaces provide a stimulating environment for children to explore nature, fostering a connection with the environment.",
+        "iconAlt": "Icon Container"
+      },
+      "feature6":{
+        "h3": "Play-Based Learning",
+        "description": "Play is an integral part of early childhood education. Our play-based approach enhances social skills, emotional development, and imaginative thinking.",
+        "iconAlt": "Icon Container"
+      }
+    }
+  },
+  "takenClasses": {
+    "sub1": "Our Features",
+    "title": {
+      "h2": "What Students Learn"
+    },
+    "sub2": "At Little Learners Academy, we strive to cultivate a love for learning and equip children with essential skills for their future success. Our academic programs cover a wide range of subjects, allowing students to develop a strong foundation and discover their interests. Some key areas of learning include",
+    "classes": {
+      "class1":{
+        "h3": "Language Arts",
+        "description": "Reading, writing, storytelling, and communication skills.",
+        "imgAlt": "class Img"
+      },
+      "class2":{
+        "h3": "Mathematics",
+        "description": "Number sense, basic operations, problem-solving, and logic.",
+        "imgAlt": "class Img"
+      },
+      "class3":{
+        "h3": "Science",
+        "description": "Exploring the natural world through hands-on experiments and investigations.",
+        "imgAlt": "class Img"
+      },
+      "class4":{
+        "h3": "Social Studies",
+        "description": "Cultivating an understanding of diverse cultures and communities.",
+        "imgAlt": "class Img"
+      },
+      "class5":{
+        "h3": "Arts and Crafts",
+        "description": "Encouraging creativity through various art forms and crafts.",
+        "imgAlt": "class Img"
+      },
+      "class6":{
+        "h3": "Physical Education",
+        "description": "Promoting physical fitness, coordination, and teamwork.",
+        "imgAlt": "class Img"
+      }
+    }
+  },
+  "roomGallery": {
+    "sub1": "Our Gallery",
+    "title": {
+      "h2": "Our Rooms Gallery"
+    },
+    "sub2": "Step into our Gallery and immerse yourself in a visual journey of cherished moments and unforgettable experiences at our kindergarten school.",
+    "rooms": {
+      "room1":{
+        "h3": "Classrooms",
+        "description": "Our well-equipped classrooms are designed to provide a nurturing and stimulating learning environment. Each classroom is thoughtfully arranged to inspire creativity, curiosity, and engagement.",
+        "imgAlts": ["room", "room", "room", "room"]
+      },
+      "room2":{
+        "h3": "Library",
+        "description": "Our expansive library is a treasure trove of books, fostering a love for reading and supporting students' literacy development.",
+        "imgAlts": ["room", "room", "room", "room"]
+      },
+      "room3":{
+        "h3": "Science Lab",
+        "description": "Our hands-on science lab allows students to conduct experiments and explore scientific concepts in a fun and interactive way.",
+        "imgAlts": ["room", "room", "room", "room"]
+      },
+      "room4":{
+        "h3": "Computer Lab",
+        "description": "Equipped with age-appropriate technology, the computer lab enhances students' digital literacy and computational skills.",
+        "imgAlts": ["room", "room", "room", "room"]
+      },
+      "room5":{
+        "h3": "Garden and Nature Area",
+        "description": "Our garden and nature area offer an opportunity for children to connect with nature and learn about plants and the environment.",
+        "imgAlts": ["room", "room", "room", "room"]
+      }
+    }
+  },
+
+
+
+ "comment4":{
+    "ADMITION PAGE": ""
+  },
+
+
+  
+  "admission": {
+    "cornerImgAlt": "Abstract Design",
+    "main": {
+      "sub1": "Admission",
+      "h2": "Join Our Family of Young Learners",
+      "description": "At Little Learners Academy, we welcome you to embark on an exciting educational journey for your child. Our admission process is designed to be transparent, straightforward, and inclusive. Here's a step-by-step guide to joining our school"
+    },
+    "process": {
+      "sub1": "Process",
+      "title": "Admission Process",
+      "sub2": "Embark on a remarkable educational journey with us! Our Admission and Enrollment process is the gateway to providing your child with an exceptional learning experience at our kindergarten school",
+      "cards": {
+        "inquiry": {
+          "title": "Inquiry",
+          "description": "Submit an inquiry form through our website or contact our admissions office to express your interest in Little Learners Academy."
+        },
+        "tour": {
+          "title": "School Tour",
+          "description": "Schedule a personalized school tour to explore our campus, meet our staff, and gain insights into our nurturing learning environment."
+        },
+        "application": {
+          "title": "Application Form",
+          "description": "Complete the application form and provide the required documents, including your child's birth certificate, medical records, and any previous academic records (if applicable)."
+        },
+        "parentInterview": {
+          "title": "Parent Interview",
+          "description": "We value parent engagement, and a meeting with our admissions team allows us to understand your child's needs and ensure Little Learners Academy aligns with your family's expectations."
+        },
+        "assessment": {
+          "title": "Student Assessment",
+          "description": "For certain age groups, a student assessment may be conducted to understand their developmental progress and ensure the best placement."
+        },
+        "acceptance": {
+          "title": "Acceptance",
+          "description": "Once the admission process is complete, you will receive an official acceptance letter from Little Learners Academy."
+        }
+      }
+    },
+    "fee": {
+      "sub1": "Our Features",
+      "title": "Fee Structure",
+      "sub2": "Our fee structure is transparent, and we strive to keep our fees competitive within the education sector. The fees vary based on the program, age group, and any additional services chosen.",
+      "table": {
+        "program": "Program",
+        "age": "Age Group",
+        "tuition": "Annual Tuition",
+        "registration": "Registration Fee",
+        "activity": "Activity Fee",
+        "nursery": {
+          "program": "Nursery",
+          "age": "2 - 3 Years",
+          "tuition": "$1,686",
+          "registration": "$162",
+          "activity": "$12"
+        },
+        "preK": {
+          "program": "Pre - Kindergartens",
+          "age": "3 - 4 Years",
+          "tuition": "$2,686",
+          "registration": "$220",
+          "activity": "$16"
+        },
+        "kinder": {
+          "program": "Kindergarten",
+          "age": "4 - 5 Years",
+          "tuition": "$3,686",
+          "registration": "$340",
+          "activity": "$20"
+        }
+      },
+      "additional": {
+        "title": "Additional Services",
+        "beforeAfter": "Before and After-School Care",
+        "beforeAfterPrice": "$120 / per month",
+        "language": "Language Immersion Program",
+        "languagePrice": "$60 / per semester",
+        "transportation": "Transportation (optional)",
+        "transportationPrice": "$80 / per month"
+      }
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ "comment6":{
+    "STUDENT LIFE PAGE": ""
+  },
+
+
+
+  "contact": {
+    "cornerImgAlt": "Abstract Design",
+    "main": {
+      "sub1": "Contact Us",
+      "h2": "Feel Free To Connect With Us",
+      "description": "We value open communication and are eager to assist you with any inquiries. Feel free to reach out to us through any of the following contact methods"
+    },
+    "addresses": {
+      "email": "hello@littlelearners.com",
+      "phone": "+91 91813 23 2309",
+      "location": "Somewhere in the World",
+      "hours": "Office Hours - 9am - 6pm"
+    }
+  },
+  "contactForm": {
+    "sub1": "Contact Form",
+    "title": "Student Information",
+    "sub2": "If you have specific questions or wish to request more information about Little Learners Academy, please complete the contact form below. Kindly provide the following details to help us better understand your needs",
+    "labels": {
+      "parentName": "Parent Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "studentName": "Student Name",
+      "studentAge": "Student Age",
+      "program": "Program of Interest",
+      "message": "Message"
+    },
+    "placeholders": {
+      "parentName": "Enter Parent Name",
+      "email": "Enter Email Address",
+      "phone": "Enter Phone Number",
+      "studentName": "Enter Student Name",
+      "studentAge": "Enter Student Age",
+      "program": "Select Program",
+      "message": "Enter your Message"
+    },
+    "submitBtn": "Submit",
+    "status": {
+      "iconAlt": "check",
+      "message": "Information saved successfully!"
+    }
+  }
+
+
+}
+

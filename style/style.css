@@ -77,11 +77,10 @@ nav{
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    width: 100%;
+    width: 97%;
+    margin: 0 auto;
     background-color: white;
     border: 1px solid var(--gray15);
-    border-radius: 15px;
-    overflow: hidden;
 }
 
 .logo{
@@ -89,7 +88,8 @@ nav{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    box-sizing: borderBox;
+    box-sizing: border-Box;
+    height: 100% ;
     padding: 24px 20px;
     color: var(--gray15);
     background-color: var(--orange65);
@@ -122,13 +122,69 @@ nav ul .home{
     background-color: var(--orange95);
 }
 
-nav .contactBtn{
+nav ul li:last-child{
+    width: 80px;
+    z-index: 35;
     background-color: var(--orange65);
 }
+.lang {
+  position: relative;
+  cursor: pointer;
+}
+
+.lang-dropdown ul {
+  display: none;          /* hidden by default */
+  position: absolute;
+  top: 60px;
+  right: -25px;
+  width: 120px;
+  height: 150px;
+  background: var(--orange80);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 15px;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.lang-dropdown ul.show {
+  display: block;
+}
+
+.lang-dropdown ul li {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 8px 12px;
+  box-sizing: border-box;
+  border: none !important;
+  cursor: pointer;
+  text-align: left;
+}
+
+.lang-dropdown ul li:first-child {
+  direction: rtl;
+  text-align: right;
+}
+
+.lang-dropdown ul li:last-child{
+    width: 100%;
+    background: var(--orange80) !important;
+}
+
+.lang-dropdown ul li:hover {
+  background-color: var(--orange75);
+}
+
+
+.lang-dropdown ul li:last-child:hover{
+    background: var(--orange75) !important;
+}
+
 
 .navList{
     display: none;
-    /* opacity: 0; */
 }
 
 .sidebar{
@@ -235,12 +291,12 @@ main .mainContent{
     font-size: 40px;
 }
 
-.mainTitle h1 span{
-    color: var(--orange65);
+.mainTitle h1 .hightLight{
+    color: var(--orange65) !important;
 }
 
 .mainContent .sub{
-    width: 300px;
+    width: fit-content !important;
     height: 33px;
     font-size: 17px;
     color: var(--gray15);
@@ -314,11 +370,13 @@ section{
 .sub2{
     display: flex;
     align-items: center;
+    justify-content: center;
+    text-align: center;
     width: 52%;
     height: 50px;
-    text-align: center;
     line-height: 150%;
     transform: translateY(-30px);
+    margin: 0 auto  !important; 
 }
 
 .allBenefits{
@@ -762,6 +820,53 @@ section{
     nav .pages{
         display: none;
     }
+    
+    .lang-dropdown i{
+        width: 100%;
+        text-align: right;
+    }
+
+    .lang-dropdown ul {
+        position: static;
+        width: 250px;
+        height: fit-content;       
+        display: flex !important;
+        justify-content: flex-start !important;
+        align-items: center !important;
+        flex-direction: row !important;
+        gap: 0px !important;
+        margin: 20px auto;
+        background-color: transparent;
+        border-radius: 10px;
+        z-index: 1000;
+        direction: rtl !important;
+    }
+
+    .lang-dropdown ul li {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lang-dropdown ul li:hover{
+        background-color: transparent;
+    }
+
+    .lang-dropdown ul li:last-child{
+        width: 30% !important;
+        background-color: transparent !important;
+    }
+
+    .lang-dropdown ul li:last-child:hover{
+        background-color: transparent !important;
+    }
+
+    #languageList li img{
+        border-radius: 50%;
+        height: 45px !important;
+        width: 45px !important;
+        margin: 0 !important;
+    }
 
     .navList{
         display: flex !important;
@@ -772,11 +877,16 @@ section{
         height: 70px;
         top: 78px !important;
         right: 12px;
-        border-left: 1px solid var(--gray15) !important;
+        border-right: 1px solid var(--gray15) !important;
         background-color: var(--orange95);
-        border-top-right-radius: 15px;
-        border-Bottom-right-radius: 15px;
         z-index: 9999 !important;
+    }
+
+    [dir="rtl"] .navList{
+        right: auto;
+        left: 17px;
+        transform: rotateY(180deg)!important;
+        border-left: 1px solid var(--gray10) !important;
     }
 
     .sidebar{
@@ -788,9 +898,10 @@ section{
         right: -300px !important;
         opacity: 0;
         background-color: var(--gray15);
-        color: var(--orange70);
+        color: var(--orange70) ;
         transition: all 0.3s ease-in-out;
         pointer-events: none;
+        /* overflow: visible !important; */
     }
 
     .sidebar.show {
@@ -800,7 +911,12 @@ section{
         pointer-events: auto;
     }
 
+    .hideBar{
+        position: absolute !important;
+    }
+
     .hideBar i{
+        z-index: 9876543;
         color: var(--orange65) !important;
     }
 

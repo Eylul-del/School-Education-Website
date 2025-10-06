@@ -11,395 +11,468 @@
 <body>
 
     <div class="navList" onclick="toggleNavList()">
-            <img src="./img/Icon.png" alt="list icon">        
+        <img src="./img/Icon.png" alt="list icon" data-i18n-alt="alt.listIcon">        
+    </div>
+
+    <div class="sidebar">
+        <div class="hideBar" onclick="toggleNavList()">
+            <i class="fa-solid fa-xmark"></i>
         </div>
-        <div class="sidebar">
-            <div class="hideBar" onclick="toggleNavList()">
-                <i class="fa-solid fa-xmark"></i>
-            </div>
-            <div class="sideBarPages">
-                <ul>
-                    <li class="homeBtn">Home</li>
-                    <li class="aboutBtn home">About Us</li>
-                    <li class="academicsBtn">Academics</li>
-                    <li class="admissionBtn">Admission</li>
-                    <li class="studentBtn">Student Life</li>
-                    <li class="contactBtn">Contact</li>
-                </ul>
-            </div>
+        <div class="sideBarPages">
+            <ul>
+                <li class="nav-item lang" id="langSelector">
+                    <i class="fa-solid fa-language"></i>
+                    <div class="lang-dropdown">
+                        <ul id="languageList">
+                            <li data-lang="ar">
+                                <img src="./img/saudiArabia.jpg" alt="">
+                            </li>
+                            <li data-lang="tr">
+                                <img src="./img/turkeyjpg.jpg" alt="">
+                            </li>
+                            <li data-lang="en">
+                                <img src="./img/UKjpg.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="homeBtn " data-i18n="nav.home">Home</li>
+                <li class="aboutBtn home" data-i18n="nav.about">About Us</li>
+                <li class="academicsBtn" data-i18n="nav.academics">Academics</li>
+                <li class="admissionBtn" data-i18n="nav.admission">Admission</li>
+                <li class="studentBtn" data-i18n="nav.studentLife">Student Life</li>
+                <li class="contactBtn" data-i18n="nav.contact">Contact</li>
+                
+            </ul>
         </div>
+    </div>
 
     <header>
         <div class="joinNow">
             <div class="leftImg">
-                <img src="./img/Abstract Design.png" alt="Abstract Design">
-                <img src="./img/Abstract Design (2).png" alt="Abstract Design">
+                <img src="./img/Abstract Design.png" alt="Abstract Design" data-i18n-alt="alt.abstractDesign1">
+                <img src="./img/Abstract Design (2).png" alt="Abstract Design" data-i18n-alt="alt.abstractDesign2">
             </div>
 
             <div class="centerText">
-                <a href="#">Admission is Open, Grab your seat now <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#" data-i18n="joinNow.text">Admission is Open, Grab your seat now <i class="fa-solid fa-arrow-right"></i></a>
             </div>
 
             <div class="rightImg">
-                <img src="./img/Abstract Design (3).png" alt="Abstract Design">
-                <img src="./img/Abstract Design (1).png" alt="Abstract Design">
+                <img src="./img/Abstract Design (3).png" alt="Abstract Design" data-i18n-alt="alt.abstractDesign3">
+                <img src="./img/Abstract Design (1).png" alt="Abstract Design" data-i18n-alt="alt.abstractDesign4">
             </div>
         </div>
 
         <nav>
             <div class="logo">
-                <img src="./img/shape-14.png" alt="logo">
-                <p>Little Learners</p>
+                <img src="./img/shape-14.png" alt="logo" data-i18n-alt="alt.logo">
+                <p data-i18n="logo.text">Little Learners</p>
             </div>
             <div class="pages">
                 <ul>
-                    <li class="homeBtn">Home</li>
-                    <li class="aboutBtn home">About Us</li>
-                    <li class="academicsBtn">Academics</li>
-                    <li class="admissionBtn">Admission</li>
-                    <li class="studentBtn">Student Life</li>
-                    <li class="contactBtn">Contact</li>
+                    <li class="homeBtn" data-i18n="nav.home">Home</li>
+                    <li class="aboutBtn homehome" data-i18n="nav.about">About Us</li>
+                    <li class="academicsBtn" data-i18n="nav.academics">Academics</li>
+                    <li class="admissionBtn" data-i18n="nav.admission">Admission</li>
+                    <li class="studentBtn" data-i18n="nav.studentLife">Student Life</li>
+                    <li class="contactBtn" data-i18n="nav.contact">Contact</li>
+                    <li class="nav-item lang" id="langSelector">
+                        <i class="fa-solid fa-language"></i>
+                        <div class="lang-dropdown">
+                            <ul id="languageList">
+                                <li data-lang="ar">العربية</li>
+                                <li data-lang="en">English</li>
+                                <li data-lang="tr">Türkçe</li>
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </nav>
     </header>
 
     <div class="backToTop">
-        <img src="./img/backToTop.png" alt="back to top img">
+        <img src="./img/backToTop.png" alt="back to top img" data-i18n-alt="alt.backToTop">
     </div>
 
     <main>
-        <div class="cornerImg">
-            <img src="./img/Abstract Design (5).png" alt="Abstract Design">
+      <div class="cornerImg">
+        <img src="./img/Abstract Design (5).png" alt="Abstract Design">
+      </div>
+      <div class="aboutMainContent">
+        <div class="mainTitle">
+          <div class="sub1">
+            <p data-i18n="overview_sub1">Overview</p>
+          </div>
+          <h2 data-i18n="overview_title">Welcome to Little Learners Academy</h2>
         </div>
-        <div class="aboutMainContent">
-            <div class="mainTitle">
-                <div class="sub1">
-                    <p>Overview</p>
-                </div>
-                <h2>Welcome to Little Learners Academy</h2>
+        <div class="description">
+          <p data-i18n="overview_description">
+            A leading kindergarten school dedicated to providing a nurturing and stimulating environment for young learners. With a commitment to excellence in early education, we believe in shaping curious minds and building a strong foundation for a lifelong love of learning. Our holistic approach fosters intellectual, social, emotional, and physical development, ensuring that each child reaches their full potential.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <section class="missionAndVision" id="missionAndVision">
+      <div class="sub1">
+        <p data-i18n="mission_sub1">Mission & Visions</p>
+      </div>
+      <div class="title">
+        <h2 data-i18n="mission_title">Our Mission & Visions</h2>
+      </div>
+      <div class="sub2">
+        <p data-i18n="mission_intro">
+          We are here to provide a nurturing and inclusive environment where young minds can thrive, fostering a love for learning and personal growth.
+        </p>
+      </div>
+
+      <div class="missionAndVisionContent">
+        <div class="contentCards">
+          <div class="card">
+            <div class="cardHeader">
+              <h3 data-i18n="mission_card_title">Mission</h3>
+              <div class="cardImg">
+                <img src="./img/Icon (2).png" alt="icon" class="icon">
+              </div>
             </div>
             <div class="description">
-                <p>A leading kinder garden school dedicated to providing a nurturing and stimulating environment for young learners. With a commitment to excellence in early education, we believe in shaping curious minds and building a strong foundation for a lifelong love of learning. Our holistic approach fosters intellectual, social, emotional, and physical development, ensuring that each child reaches their full potential.</p>
+              <p data-i18n="mission_card_description">
+                At Little Learners Academy, our mission is to inspire a passion for learning and empower young minds to become confident, compassionate, and creative individuals. We strive to create a safe and inclusive space where children thrive academically, socially, and emotionally, setting the stage for a successful educational journey.
+              </p>
             </div>
-        </div>
-    </main>
-    
-    <section class="missionAndVision" id="missionAndVision">
-        <div class="sub1">
-            <p>Mission & Visions</p>
-        </div>
-        <div class="title">
-            <h2>Our Mission & Visions</h2>
-        </div>
-        <div class="sub2">
-            <p>We are here to provide a nurturing and inclusive environment where young minds can thrive, fostering a love for learning and personal growth.</p>
-        </div>
-
-        <div class="missionAndVisionContent">
-            <div class="contentCards">
-                <div class="card">
-                    <div class="cardHeader">
-                        <h3>Mission</h3>
-                        <div class="cardImg">
-                            <img src="./img/Icon (2).png" alt="icon" class="icon">
-                        </div>
-                    </div>
-                    <div class="description">
-                        <p>At Little Learners Academy, our mission is to inspire a passion for learning and empower young minds to become confident, compassionate, and creative individuals. We strive to create a safe and inclusive space where children thrive academically, socially, and emotionally, setting the stage for a successful educational journey.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="cardHeader">
-                        <h3>Vision</h3>
-                        <div class="cardImg">
-                            <img src="./img/Icon (1).png" alt="icon" class="icon">
-                        </div>
-                    </div>
-                    <div class="description">
-                        <p>Our vision is to be a beacon of educational excellence, where children are encouraged to explore, discover, and express their unique talents. We aim to foster a generation of lifelong learners equipped with critical thinking, empathy, and a deep appreciation for diversity.</p>
-                    </div>
-                </div>
+          </div>
+          <div class="card">
+            <div class="cardHeader">
+              <h3 data-i18n="vision_card_title">Vision</h3>
+              <div class="cardImg">
+                <img src="./img/Icon (1).png" alt="icon" class="icon">
+              </div>
             </div>
+            <div class="description">
+              <p data-i18n="vision_card_description">
+                Our vision is to be a beacon of educational excellence, where children are encouraged to explore, discover, and express their unique talents. We aim to foster a generation of lifelong learners equipped with critical thinking, empathy, and a deep appreciation for diversity.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="awardsAndRecognition" id="awardsAndRecognition">
-        <div class="sub1">
-            <p>Our Achievements</p>
-        </div>
-        <div class="title">
-            <h2>Our Awards and Recognitions</h2>
-        </div>
-        <div class="sub2">
-            <p>Little Learners Academy takes pride in our commitment to delivering high-quality education and outstanding student experiences. We are honored to have received various awards and recognitions for our dedication to early childhood education. These accolades reflect our team's relentless efforts in creating an exceptional learning environment for our students.</p>
+      <div class="sub1">
+        <p data-i18n="awards_sub1">Our Achievements</p>
+      </div>
+      <div class="title">
+        <h2 data-i18n="awards_title">Our Awards and Recognitions</h2>
+      </div>
+      <div class="sub2">
+        <p data-i18n="awards_description">
+          Little Learners Academy takes pride in our commitment to delivering high-quality education and outstanding student experiences. We are honored to have received various awards and recognitions for our dedication to early childhood education. These accolades reflect our team's relentless efforts in creating an exceptional learning environment for our students.
+        </p>
+      </div>
+
+      <div class="allAwards">
+        <div class="awardCard">
+          <div class="carIcon">
+            <img src="./img/Icon Container (6).png" alt="icon" class="icon">
+          </div>
+          <div class="cardTitle">
+            <h3 data-i18n="award1_title">Outstanding Early Childhood Education Award</h3>
+          </div>
+          <div class="description">
+            <p data-i18n="award1_description">
+              Presented by the National Association for the Education of Young Children (NAEYC) in recognition of Little Learners Academy's commitment to delivering exceptional early childhood education and fostering a nurturing learning environment.
+            </p>
+          </div>
         </div>
 
-        <div class="allAwards">
-            <div class="awardCard">
-                <div class="carIcon">
-                    <img src="./img/Icon Container (6).png" alt="icon" class="icon">
-                </div>
-                <div class="cardTitle">
-                    <h3>Outstanding Early Childhood Education Awar</h3>
-                </div>
-                <div class="description">
-                    <p>Presented by the National Association for the Education of Young Children (NAEYC) in recognition of Little Learners Academy's commitment to delivering exceptional early childhood education and fostering a nurturing learning environment.</p>
-                </div>
-            </div>
-
-            <div class="awardCard">
-                <div class="carIcon">
-                    <img src="./img/Icon Container (7).png" alt="icon" class="icon">
-                </div>
-                <div class="cardTitle">
-                    <h3>Innovative STEAM Education Award</h3>
-                </div>
-                <div class="description">
-                    <p>Awarded by the Education Excellence Association for our pioneering efforts in introducing innovative STEAM (Science, Technology, Engineering, Arts, and Mathematics) programs that ignite creativity and critical thinking in young learners.</p>
-                </div>
-            </div>
-
-            <div class="awardCard">
-                <div class="carIcon">
-                    <img src="./img/Icon Container (8).png" alt="icon" class="icon">
-                </div>
-                <div class="cardTitle">
-                    <h3>Environmental Stewardship Award</h3>
-                </div>
-                <div class="description">
-                    <p>Received from the Green Earth Society for our dedication to environmental education, sustainable practices, and fostering a love for nature in our students.</p>
-                </div>
-            </div>
+        <div class="awardCard">
+          <div class="carIcon">
+            <img src="./img/Icon Container (7).png" alt="icon" class="icon">
+          </div>
+          <div class="cardTitle">
+            <h3 data-i18n="award2_title">Innovative STEAM Education Award</h3>
+          </div>
+          <div class="description">
+            <p data-i18n="award2_description">
+              Awarded by the Education Excellence Association for our pioneering efforts in introducing innovative STEAM (Science, Technology, Engineering, Arts, and Mathematics) programs that ignite creativity and critical thinking in young learners.
+            </p>
+          </div>
         </div>
+
+        <div class="awardCard">
+          <div class="carIcon">
+            <img src="./img/Icon Container (8).png" alt="icon" class="icon">
+          </div>
+          <div class="cardTitle">
+            <h3 data-i18n="award3_title">Environmental Stewardship Award</h3>
+          </div>
+          <div class="description">
+            <p data-i18n="award3_description">
+              Received from the Green Earth Society for our dedication to environmental education, sustainable practices, and fostering a love for nature in our students.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="history" id="history">
-        <div class="sub1">
-            <p>Our Progressive Journey</p>
-        </div>
-        <div class="title">
-            <h2>Our History</h2>
-        </div>
-        <div class="sub2">
-            <p>Founded with a passion for early education in 2005, our kindergarten school boasts a rich history of empowering young learners to reach their potential through innovative teaching methods and a supportive learning environment</p>
+      <div class="sub1">
+        <p data-i18n="history_sub1">Our Progressive Journey</p>
+      </div>
+      <div class="title">
+        <h2 data-i18n="history_title">Our History</h2>
+      </div>
+      <div class="sub2">
+        <p data-i18n="history_intro">
+          Founded with a passion for early education in 2005, our kindergarten school boasts a rich history of empowering young learners to reach their potential through innovative teaching methods and a supportive learning environment.
+        </p>
+      </div>
+
+      <div class="allYears">
+        <div class="year">
+          <div class="yearImg">
+            <img src="./img/Abstract Design  (6).png" alt="Abstract Design">
+            <h2>2023</h2>
+          </div>
+          <div class="description">
+            <h3 data-i18n="history_2023_title">Resilience and Future Horizons</h3>
+            <p data-i18n="history_2023_text">
+              Adapting to new challenges, we remained committed to our mission of providing an exceptional early education. Looking ahead with optimism, we envision a future filled with boundless possibilities as we continue shaping the leaders and thinkers of tomorrow.
+            </p>
+          </div>
         </div>
 
-        <div class="allYears">
-            <div class="year">
-                <div class="yearImg">
-                    <img src="./img/Abstract Design  (6).png" alt="Abstract Design">
-                    <h2>2023</h2>
-                </div>
-                <div class="description">
-                    <h3>Resilience and Future Horizons</h3>
-                    <p>Adapting to new challenges, we remained committed to our mission of providing an exceptional early education. Looking ahead with optimism, we envision a future filled with boundless possibilities as we continue shaping the leaders and thinkers of tomorrow.</p>
-                </div>
-            </div>
-            
-            <div class="year">
-                <div class="yearImg">
-                    <img src="./img/Abstract Design  (6).png" alt="Abstract Design">
-                    <h2>2017</h2>
-                </div>
-                <div class="description">
-                    <h3>Innovation and Technology</h3>
-                    <p>Innovation became the driving force behind our kindergarten's progress from 2016 to 2020. Embracing the latest educational technologies, we crafted engaging and interactive learning experiences for our students.</p>
-                </div>
-            </div>
-            <div class="year">
-                <div class="yearImg">
-                    <img src="./img/Abstract Design  (6).png" alt="Abstract Design">
-                    <h2>2012</h2>
-                </div>
-                <div class="description">
-                    <h3>Expansion and Recognition</h3>
-                    <p>These years marked as a period of expansion and recognition for our school. As we extended our facilities and enhanced our curriculum, we received accolades for our commitment to quality education and innovative teaching methodologies.</p>
-                </div>
-            </div>
-            <div class="year">
-                <div class="yearImg">
-                    <img src="./img/Abstract Design  (6).png" alt="Abstract Design">
-                    <h2>2005</h2>
-                </div>
-                <div class="description">
-                    <h3>Inception and Growth</h3>
-                    <p>Established in 2005, our kindergarten school began its journey with a vision to provide a nurturing space for young minds to explore, learn, and grow. Over the next five years, we witnessed significant growth.</p>
-                </div>
-            </div>
+        <div class="year">
+          <div class="yearImg">
+            <img src="./img/Abstract Design  (6).png" alt="Abstract Design">
+            <h2>2017</h2>
+          </div>
+          <div class="description">
+            <h3 data-i18n="history_2017_title">Innovation and Technology</h3>
+            <p data-i18n="history_2017_text">
+              Innovation became the driving force behind our kindergarten's progress from 2016 to 2020. Embracing the latest educational technologies, we crafted engaging and interactive learning experiences for our students.
+            </p>
+          </div>
         </div>
+
+        <div class="year">
+          <div class="yearImg">
+            <img src="./img/Abstract Design  (6).png" alt="Abstract Design">
+            <h2>2012</h2>
+          </div>
+          <div class="description">
+            <h3 data-i18n="history_2012_title">Expansion and Recognition</h3>
+            <p data-i18n="history_2012_text">
+              These years marked a period of expansion and recognition for our school. As we extended our facilities and enhanced our curriculum, we received accolades for our commitment to quality education and innovative teaching methodologies.
+            </p>
+          </div>
+        </div>
+
+        <div class="year">
+          <div class="yearImg">
+            <img src="./img/Abstract Design  (6).png" alt="Abstract Design">
+            <h2>2005</h2>
+          </div>
+          <div class="description">
+            <h3 data-i18n="history_2005_title">Inception and Growth</h3>
+            <p data-i18n="history_2005_text">
+              Established in 2005, our kindergarten school began its journey with a vision to provide a nurturing space for young minds to explore, learn, and grow. Over the next five years, we witnessed significant growth.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="ourTeam" id="team">
-        <div class="sub1">
-            <p>Our Teachers With Experties</p>
-        </div>
-        <div class="title">
-            <h2>Our Team Memebers</h2>
-        </div>
-        <div class="sub2">
-            <p>At Little Learners Academy, our teaching team is the heart of our educational journey. We take great pride in employing highly qualified and passionate educators who possess a deep understanding of early childhood development. Our teachers create a warm and engaging atmosphere, encouraging curiosity, instilling confidence, and fostering a love for learning.</p>
-        </div>
+      <div class="sub1">
+        <p data-i18n="team_sub1">Our Teachers With Expertise</p>
+      </div>
+      <div class="title">
+        <h2 data-i18n="team_title">Our Team Members</h2>
+      </div>
+      <div class="sub2">
+        <p data-i18n="team_intro">
+          At Little Learners Academy, our teaching team is the heart of our educational journey. We take great pride in employing highly qualified and passionate educators who possess a deep understanding of early childhood development. Our teachers create a warm and engaging atmosphere, encouraging curiosity, instilling confidence, and fostering a love for learning.
+        </p>
+      </div>
 
-        <div class="membersCards">
-            <div class="col">
-                <div class="member">
-                    <div class="profile">
-                        <div class="name">
-                            <img src="./img/Image.png" alt="profile img">
-                            <h3>Mr. David Roberts</h3>
-                        </div>
-                        <div class="email">
-                            <img src="./img/email button.png" alt="email btn" class="icon">
-                        </div>
-                    </div>
-                    <div class="description">
-                        <h3>Qualification: Master's Degree in Elementary Education</h3>
-                        <p>With a strong background in elementary education, Mr. David brings a creative and interactive teaching style to his classroom. His enthusiasm for learning inspires students to ask questions and think critically.</p>
-                    </div>
-                </div>
-
-                <div class="member">
-                    <div class="profile">
-                        <div class="name">
-                            <img src="./img/Image (1).png" alt="profile img">
-                            <h3>Mr. Michael Turner</h3>
-                        </div>
-                        <div class="email">
-                            <img src="./img/email button.png" alt="email btn" class="icon">
-                        </div>
-                    </div>
-                    <div class="description">
-                        <h3>Qualification: Bachelor's Degree in Physical Education</h3>
-                        <p>Mr. Michael's passion for physical fitness and sports shines through in his energetic classes. He encourages students to stay active, promoting teamwork and a healthy lifestyle.</p>
-                    </div>
-                </div>
-                <div class="member">
-                    <div class="profile">
-                        <div class="name">
-                            <img src="./img/Image (2).png" alt="profile img">
-                            <h3>Mr. William Parker</h3>
-                        </div>
-                        <div class="email">
-                            <img src="./img/email button.png" alt="email btn" class="icon">
-                        </div>
-                    </div>
-                    <div class="description">
-                        <h3>Qualification: Bachelor's Degree in Fine Arts</h3>
-                        <p>Mr. William's background in fine arts brings creativity and imagination to his classroom. Through art projects and activities, he nurtures the artistic expression and self-confidence of his students.</p>
-                    </div>
-                </div>
+      <div class="membersCards">
+        <div class="col">
+          <div class="member">
+            <div class="profile">
+              <div class="name">
+                <img src="./img/Image.png" alt="profile img">
+                <h3 data-i18n="teacher1_name">Mr. David Roberts</h3>
+              </div>
+              <div class="email">
+                <img src="./img/email button.png" alt="email btn" class="icon">
+              </div>
             </div>
-
-            <div class="col">
-                <div class="member">
-                    <div class="profile">
-                        <div class="name">
-                            <img src="./img/Image.png" alt="profile img">
-                            <h3>Mr. David Roberts</h3>
-                        </div>
-                        <div class="email">
-                            <img src="./img/email button.png" alt="email btn" class="icon">
-                        </div>
-                    </div>
-                    <div class="description">
-                        <h3>Qualification: Master's Degree in Elementary Education</h3>
-                        <p>With a strong background in elementary education, Mr. David brings a creative and interactive teaching style to his classroom. His enthusiasm for learning inspires students to ask questions and think critically.</p>
-                    </div>
-                </div>
-
-                <div class="member">
-                    <div class="profile">
-                        <div class="name">
-                            <img src="./img/Image (1).png" alt="profile img">
-                            <h3>Mr. Michael Turner</h3>
-                        </div>
-                        <div class="email">
-                            <img src="./img/email button.png" alt="email btn" class="icon">
-                        </div>
-                    </div>
-                    <div class="description">
-                        <h3>Qualification: Bachelor's Degree in Physical Education</h3>
-                        <p>Mr. Michael's passion for physical fitness and sports shines through in his energetic classes. He encourages students to stay active, promoting teamwork and a healthy lifestyle.</p>
-                    </div>
-                </div>
-                <div class="member">
-                    <div class="profile">
-                        <div class="name">
-                            <img src="./img/Image (2).png" alt="profile img">
-                            <h3>Mr. William Parker</h3>
-                        </div>
-                        <div class="email">
-                            <img src="./img/email button.png" alt="email btn" class="icon">
-                        </div>
-                    </div>
-                    <div class="description">
-                        <h3>Qualification: Bachelor's Degree in Fine Arts</h3>
-                        <p>Mr. William's background in fine arts brings creativity and imagination to his classroom. Through art projects and activities, he nurtures the artistic expression and self-confidence of his students.</p>
-                    </div>
-                </div>
+            <div class="description">
+              <h3 data-i18n="teacher1_qualification">Qualification: Master's Degree in Elementary Education</h3>
+              <p data-i18n="teacher1_bio">
+                With a strong background in elementary education, Mr. David brings a creative and interactive teaching style to his classroom. His enthusiasm for learning inspires students to ask questions and think critically.
+              </p>
             </div>
+          </div>
+
+          <div class="member">
+            <div class="profile">
+              <div class="name">
+                <img src="./img/Image (1).png" alt="profile img">
+                <h3 data-i18n="teacher2_name">Mr. Michael Turner</h3>
+              </div>
+              <div class="email">
+                <img src="./img/email button.png" alt="email btn" class="icon">
+              </div>
+            </div>
+            <div class="description">
+              <h3 data-i18n="teacher2_qualification">Qualification: Bachelor's Degree in Physical Education</h3>
+              <p data-i18n="teacher2_bio">
+                Mr. Michael's passion for physical fitness and sports shines through in his energetic classes. He encourages students to stay active, promoting teamwork and a healthy lifestyle.
+              </p>
+            </div>
+          </div>
+
+          <div class="member">
+            <div class="profile">
+              <div class="name">
+                <img src="./img/Image (2).png" alt="profile img">
+                <h3 data-i18n="teacher3_name">Mr. William Parker</h3>
+              </div>
+              <div class="email">
+                <img src="./img/email button.png" alt="email btn" class="icon">
+              </div>
+            </div>
+            <div class="description">
+              <h3 data-i18n="teacher3_qualification">Qualification: Bachelor's Degree in Fine Arts</h3>
+              <p data-i18n="teacher3_bio">
+                Mr. William's background in fine arts brings creativity and imagination to his classroom. Through art projects and activities, he nurtures the artistic expression and self-confidence of his students.
+              </p>
+            </div>
+          </div>
         </div>
+        <div class="col">
+          <div class="member">
+            <div class="profile">
+              <div class="name">
+                <img src="./img/Image.png" alt="profile img">
+                <h3 data-i18n="teacher1_name">Mr. David Roberts</h3>
+              </div>
+              <div class="email">
+                <img src="./img/email button.png" alt="email btn" class="icon">
+              </div>
+            </div>
+            <div class="description">
+              <h3 data-i18n="teacher1_qualification">Qualification: Master's Degree in Elementary Education</h3>
+              <p data-i18n="teacher1_bio">
+                With a strong background in elementary education, Mr. David brings a creative and interactive teaching style to his classroom. His enthusiasm for learning inspires students to ask questions and think critically.
+              </p>
+            </div>
+          </div>
+
+          <div class="member">
+            <div class="profile">
+              <div class="name">
+                <img src="./img/Image (1).png" alt="profile img">
+                <h3 data-i18n="teacher2_name">Mr. Michael Turner</h3>
+              </div>
+              <div class="email">
+                <img src="./img/email button.png" alt="email btn" class="icon">
+              </div>
+            </div>
+            <div class="description">
+              <h3 data-i18n="teacher2_qualification">Qualification: Bachelor's Degree in Physical Education</h3>
+              <p data-i18n="teacher2_bio">
+                Mr. Michael's passion for physical fitness and sports shines through in his energetic classes. He encourages students to stay active, promoting teamwork and a healthy lifestyle.
+              </p>
+            </div>
+          </div>
+
+          <div class="member">
+            <div class="profile">
+              <div class="name">
+                <img src="./img/Image (2).png" alt="profile img">
+                <h3 data-i18n="teacher3_name">Mr. William Parker</h3>
+              </div>
+              <div class="email">
+                <img src="./img/email button.png" alt="email btn" class="icon">
+              </div>
+            </div>
+            <div class="description">
+              <h3 data-i18n="teacher3_qualification">Qualification: Bachelor's Degree in Fine Arts</h3>
+              <p data-i18n="teacher3_bio">
+                Mr. William's background in fine arts brings creativity and imagination to his classroom. Through art projects and activities, he nurtures the artistic expression and self-confidence of his students.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+
 
 
     <footer class="footer">
         <div class="footerContainer">
             <div class="footerBrand">
-              <div class="logo">
-                <img src="./img/shape-14.png" alt="logo">
-                <h3>Little Learners</h3>
-              </div>
-              <p>We believe in the power of play to foster creativity, problem-solving skills, and imagination.</p>
+                <div class="logo">
+                    <img src="./img/shape-14.png" alt="logo">
+                    <h3 data-i18n="footer.brand.name">Little Learners</h3>
+                </div>
+                <p data-i18n="footer.brand.description">
+                    We believe in the power of play to foster creativity, problem-solving skills, and imagination.
+                </p>
 
-              <ul class="contactInfo">
-                <li><i class="fa-solid fa-envelope"></i> hello@littlelearners.com</li>
-                <li><i class="fa-solid fa-phone"></i> +91 91813 23 2309</li>
-                <li><i class="fa-solid fa-location-dot"></i> Somewhere in the World</li>
-              </ul>
+                <ul class="contactInfo">
+                    <li><i class="fa-solid fa-envelope"></i> <span data-i18n="footer.contact.email">hello@littlelearners.com</span></li>
+                    <li><i class="fa-solid fa-phone"></i> <span data-i18n="footer.contact.phone">+91 91813 23 2309</span></li>
+                    <li><i class="fa-solid fa-location-dot"></i> <span data-i18n="footer.contact.location">Somewhere in the World</span></li>
+                </ul>
             </div>
 
             <div class="footerLinks">
-              <div>
-                <h4>Home</h4>
-                <ul>
-                  <li><a href="academics.html#features">Features</a></li>
-                  <li><a href="index.html#testimonials">Our Testimonials</a></li>
-                  <li><a href="index.html#FAQ">FAQ</a></li>
-                </ul>
-              </div>
-              <div>
-                <h4>About Us</h4>
-                <ul>
-                  <li><a href="about.html#missionAndVision">Our Mission</a></li>
-                  <li><a href="about.html#awardsAndRecognition">Awards and Recognitions</a></li>
-                  <li><a href="about.html#history">History</a></li>
-                  <li><a href="about.html#team">Teachers</a></li>
-                </ul>
-              </div>
-              <div>
-                <h4>Academics</h4>
-                <ul>
-                  <li><a href="admission.html#specialFeatures">Special Features</a></li>
-                  <li><a href="academics.html#gallery">Gallery</a></li>
-                </ul>
-              </div>
-              <div>
-                <h4>Contact Us</h4>
-                <ul>
-                  <li><a href="contact.html">Information</a></li>
-                  <li><a href="contact.html">Map &amp; Direction</a></li>
-                </ul>
-              </div>
+                <div>
+                    <h4 data-i18n="footer.links.home.title">Home</h4>
+                    <ul>
+                        <li><a href="academics.html#features" data-i18n="footer.links.home.features">Features</a></li>
+                        <li><a href="index.html#testimonials" data-i18n="footer.links.home.testimonials">Our Testimonials</a></li>
+                        <li><a href="index.html#FAQ" data-i18n="footer.links.home.faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 data-i18n="footer.links.about.title">About Us</h4>
+                    <ul>
+                        <li><a href="about.html#missionAndVision" data-i18n="footer.links.about.mission">Our Mission</a></li>
+                        <li><a href="about.html#awardsAndRecognition" data-i18n="footer.links.about.awards">Awards and Recognitions</a></li>
+                        <li><a href="about.html#history" data-i18n="footer.links.about.history">History</a></li>
+                        <li><a href="about.html#team" data-i18n="footer.links.about.teachers">Teachers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 data-i18n="footer.links.academics.title">Academics</h4>
+                    <ul>
+                        <li><a href="admission.html#specialFeatures" data-i18n="footer.links.academics.features">Special Features</a></li>
+                        <li><a href="academics.html#gallery" data-i18n="footer.links.academics.gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 data-i18n="footer.links.contact.title">Contact Us</h4>
+                    <ul>
+                        <li><a href="contact.html" data-i18n="footer.links.contact.info">Information</a></li>
+                        <li><a href="contact.html" data-i18n="footer.links.contact.map">Map & Direction</a></li>
+                    </ul>
+                </div>
             </div>
-
         </div>
 
         <div class="footerBottom">
             <div class="policies">
-                <a href="#">Terms of Service</a> |
-                <a href="#">Privacy Policy</a> |
-                <a href="#">Cookie Policy</a>
+                <a href="#" data-i18n="footer.policies.terms">Terms of Service</a> |
+                <a href="#" data-i18n="footer.policies.privacy">Privacy Policy</a> |
+                <a href="#" data-i18n="footer.policies.cookie">Cookie Policy</a>
             </div>
 
             <div class="socials">
@@ -408,10 +481,14 @@
                 <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
         </div>
-    
-        <p class="copyright">Copyright © [2023] Little Learners Academy. All rights reserved.</p>
+
+        <p class="copyright" data-i18n="footer.copyright">
+            Copyright © [2023] Little Learners Academy. All rights reserved.
+        </p>
     </footer>
 
-    <script src="js.js"></script>
+
+    <script src="js/js.js"></script>
+    <SCript src="js/lang.js"></SCript>
 </body>
 </html>
