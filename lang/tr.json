@@ -441,17 +441,105 @@
 
 
 
+"comment5":{
+    "STUDENT LIFE PAGE": ""
+  },
 
 
-
-
-
-
+  "studentLife": {
+    "main": {
+      "cornerImgAlt": "Soyut Tasarım",
+      "sub1": "Öğrenci Hayatını Zenginleştirme",
+      "title": "Keşif ve Neşeyle Öğrenimi Kucaklamak",
+      "sub2": "Öğrenci Hayatı sayfamıza hoş geldiniz; burada çocukluğun büyüsü, öğrencilerimizin her gün yaşadığı deneyim ve maceralarla canlanıyor. Anaokulumuzda öğrenmenin sadece ders kitaplarıyla sınırlı olmadığına inanıyor ve çocuğun gelişiminin her yönünü destekleyen bütüncül ve etkileşimli bir ortam yaratmaya çalışıyoruz."
+    },
+    "extracurricular": {
+      "sub1": "Özelliklerimiz",
+      "title": "Müfredat Dışı Aktiviteler",
+      "sub2": "Little Learners Akademisi'nde, tam donanımlı bireyler yetiştirmeye inanıyoruz. Müfredat dışı aktivitelerimiz, akademik müfredatı tamamlayan ve öğrencilerin ilgi alanlarını keşfetmelerini teşvik eden çeşitli deneyimler sunar. Sunulan aktiviteler arasında şunlar bulunmaktadır:",
+      "cards": {
+        "card1": {
+          "title": "Beden Eğitimi",
+          "description": "Öğrenciler futbol, basketbol, jimnastik ve yoga gibi çeşitli sporlara katılabilir. Spor, takım çalışmasını, fiziksel zindeliği ve disiplin duygusunu artırır."
+        },
+        "card2": {
+          "title": "Sanat ve Yaratıcılık",
+          "description": "Sanat derslerimiz ve yaratıcı atölyelerimiz, öğrencilerin resim, çizim ve diğer sanat biçimleriyle yaratıcılıklarını ifade etmeleri için bir platform sağlar."
+        },
+        "card3": {
+          "title": "Müzik ve Sahne Sanatları",
+          "description": "Öğrenciler, şarkı söyleyerek, müzik aletleri çalarak ve tiyatro ve drama performanslarına katılarak müzikal yeteneklerini keşfedebilirler."
+        },
+        "card4": {
+          "title": "Dil Kulüpleri",
+          "description": "Dil kulüpleri, öğrencilerin farklı diller ve kültürlerle iç içe olmasına olanak tanır ve küresel farkındalığı artırır."
+        },
+        "card5": {
+          "title": "Bilim Kulübü",
+          "description": "Bilim kulübü, küçük bilim insanlarının eğlenceli deneyler ve uygulamalı öğrenme yoluyla bilimin harikalarını keşfetmelerini sağlar."
+        },
+        "card6": {
+          "title": "Yemek ve Mutfak Sanatları",
+          "description": "Yemek dersleri, öğrencilerin lezzetli ve sağlıklı yemekler hazırlama ve tatma deneyimini keşfetmesini sağlar."
+        }
+      }
+    },
+    "events": {
+      "sub1": "Özelliklerimiz",
+      "title": "Etkinlikler ve Kutlamalar",
+      "sub2": "Little Learners Akademisi'nde her başarıyı kutluyor ve öğrencilerimiz için değerli anılar yaratıyoruz. Yıl boyunca, tüm okul topluluğunu bir araya getiren çeşitli etkinlikler ve kutlamalar düzenliyoruz. Öne çıkan etkinliklerimiz şunlardır:",
+      "cards": {
+        "card1": {
+          "title": "Yıllık Spor Günü",
+          "description": "Dostane rekabet, takım ruhu ve sporculuk ile dolu bir gün."
+        },
+        "card2": {
+          "title": "Kültürel Festivaller",
+          "description": "Çeşitli kültürel festivalleri kutlamak, kültürel alışverişi ve takdiri teşvik etmek."
+        },
+        "card3": {
+          "title": "Sanat Sergileri",
+          "description": "Öğrencilerimizin sanatsal yeteneklerini sergi ve gösterilerle sergilemek."
+        },
+        "card4": {
+          "title": "Bilim Fuarı",
+          "description": "Küçük bilim insanlarının yenilikçi projelerini ve deneylerini sergilediği bir platform."
+        },
+        "card5": {
+          "title": "Uluslararası Gün",
+          "description": "Çeşitli topluluğumuzu kutlayan ve dünya genelindeki kültürleri kucaklayan canlı bir kutlama."
+        },
+        "card6": {
+          "title": "Mezuniyet Töreni",
+          "description": "Anaokulu öğrencilerimizin akademik yolculuklarına başlamaya hazırlandığı önemli bir dönüm noktası."
+        }
+      }
+    },
+    "support": {
+      "sub1": "Başarılarımız",
+      "title": "Öğrenci Desteği",
+      "sub2": "Little Learners Akademisi'nde, her öğrencinin benzersiz ihtiyaçlarını karşılayan destekleyici ve besleyici bir ortam sağlama taahhüdünde bulunuyoruz. Öğrenci destek hizmetlerimiz şunları içerir:",
+      "cards": {
+        "card1": {
+          "title": "Psikolojik Danışmanlık",
+          "description": "Profesyonel danışmanlar, öğrencilerin duygusal ve sosyal iyilik hallerine odaklanarak rehberlik ve destek sağlar."
+        },
+        "card2": {
+          "title": "Öğrenim Desteği",
+          "description": "Eğitmenlerimiz, akademik yolculuklarında ek desteğe ihtiyaç duyan öğrencilere ilave yardım sağlar."
+        },
+        "card3": {
+          "title": "Öğretmen-Aile İşbirliği",
+          "description": "Çocuğun gelişiminde sorunsuz iletişim ve karşılıklı desteği sağlamak için velilerle güçlü bir ortaklık kuruyoruz."
+        }
+      }
+    }
+  },
 
 
 
   "comment6":{
-    "STUDENT LIFE PAGE": ""
+    "CONTACT PAGE": ""
   },
 
   
@@ -498,7 +586,4 @@
       "message": "Bilgiler başarıyla kaydedildi!"
     }
   }
-
-
 }
-
