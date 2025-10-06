@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function(){
         {btns: aboutBtn, file: 'about.html'},
         {btns: academicsBtn, file: 'academics.html'},
         {btns: admissionBtn, file: 'admission.html'},
-        {btns: studentBtn, file: 'studentLife.html'},
+        {btns: studentBtn, file: 'student.html'},
         {btns: contactBtn, file: 'contact.html'}
     ];
 
@@ -107,3 +107,4 @@ form.addEventListener("submit", function(event){
         statusBox.style.display = "none";
     }, 3000);
 });
+

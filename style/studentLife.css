@@ -18,6 +18,11 @@
     --gray70: rgb(170, 179, 179);
 }
 
+html, body {
+    height: auto;
+    min-height: 100vh;
+}
+
 .activitiesCards{
     margin: 0 auto;
     width: 90%;

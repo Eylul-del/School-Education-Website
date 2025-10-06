@@ -263,7 +263,7 @@ nav ul li:last-child{
 }
 
 main{
-    display: flex;
+    display: flex !important;
     align-items: center;
     justify-content: center;
     width: 90%;
