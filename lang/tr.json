@@ -159,9 +159,27 @@
         "awards": "Ödüller ve Takdirler",
         "history": "Tarihçe"
         
-        }
-    }
-  },
+        },
+        
+      "academics": {
+        "title": "Akademiler",
+        "features": "Özel Özellikler",
+        "gallery": "Sergi"
+      },
+      "contact": {
+        "title": "Bize Ulaşın",
+        "info": "Bilgi",
+        "map": "Harita ve Yol Tarifi"
+      }
+    },
+    "policies": {
+      "terms": "Hizmet Şartları",
+      "privacy": "Gizlilik Politikası",
+      "cookie": "Çerez Politikası"
+    },
+    "copyright": "Telif Hakkı © [2023] Little Learners Academy. Tüm hakları saklıdır."
+  
+    },
 
 
 
