@@ -10,10 +10,6 @@
     <title>Contact Us</title>
 </head>
 <body>
-    
-    <div class="navList" onclick="toggleNavList()">
-        <img src="./img/Icon.png" alt="list icon" data-i18n-alt="alt.listIcon">        
-    </div>
 
     <div class="sidebar">
         <div class="hideBar" onclick="toggleNavList()">
@@ -37,12 +33,12 @@
                         </ul>
                     </div>
                 </li>
-                <li class="homeBtn home" data-i18n="nav.home">Home</li>
+                <li class="homeBtn" data-i18n="nav.home">Home</li>
                 <li class="aboutBtn" data-i18n="nav.about">About Us</li>
                 <li class="academicsBtn" data-i18n="nav.academics">Academics</li>
                 <li class="admissionBtn" data-i18n="nav.admission">Admission</li>
                 <li class="studentBtn" data-i18n="nav.studentLife">Student Life</li>
-                <li class="contactBtn" data-i18n="nav.contact">Contact</li>
+                <li class="contactBtn home" data-i18n="nav.contact">Contact</li>
                 
             </ul>
         </div>
@@ -72,12 +68,12 @@
             </div>
             <div class="pages">
                 <ul>
-                    <li class="homeBtn home" data-i18n="nav.home">Home</li>
+                    <li class="homeBtn" data-i18n="nav.home">Home</li>
                     <li class="aboutBtn" data-i18n="nav.about">About Us</li>
                     <li class="academicsBtn" data-i18n="nav.academics">Academics</li>
                     <li class="admissionBtn" data-i18n="nav.admission">Admission</li>
                     <li class="studentBtn" data-i18n="nav.studentLife">Student Life</li>
-                    <li class="contactBtn" data-i18n="nav.contact">Contact</li>
+                    <li class="contactBtn home" data-i18n="nav.contact">Contact</li>
                     <li class="nav-item lang" id="langSelector">
                         <i class="fa-solid fa-language"></i>
                         <div class="lang-dropdown">
@@ -89,6 +85,9 @@
                         </div>
                     </li>
                 </ul>
+            </div>
+            <div class="navList" onclick="toggleNavList()">
+                <img src="./img/Icon.png" alt="list icon" data-i18n-alt="alt.listIcon">        
             </div>
         </nav>
     </header>
@@ -109,7 +108,8 @@
             </div>
             <div class="description">
                 <p data-i18n="contact.main.description">We value open communication and are eager to assist you with any inquiries. Feel free to reach out to us through any of the following contact methods</p>
-                <div class="contactAddresses">
+            </div>
+            <div class="contactAddresses">
                     <div class="address">
                         <div class="icon">
                             <i class="fa-solid fa-envelope"></i>
@@ -135,7 +135,6 @@
                         <p data-i18n="contact.addresses.hours">Office Hours - 9am - 6pm</p>
                     </div>
                 </div>
-            </div>
         </div>
     </main>
 

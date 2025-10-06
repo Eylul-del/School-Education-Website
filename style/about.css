@@ -286,40 +286,40 @@ main .cornerImg{
 
 @media (max-width: 420px) {
     main {
-    height: auto !important;
-    min-height: 0 !important;
-    max-height: 650px !important;
-    padding: 0 !important;
-    gap: 0 !important;
-    margin-top: 20px !important;
+        height: auto !important;
+        min-height: 0 !important;
+        max-height: 750px !important;
+        padding: 0 !important;
+        gap: 0 !important;
+        margin-top: 20px !important;
   }
 
-  .cornerImg{
-    width: 35%;
-  }
+    .cornerImg{
+        width: 35%;
+    }
 
-  .cornerImg img {
-    width: 100% !important;
-  }
+    .cornerImg img {
+        width: 100% !important;
+    }
 
-  section .title h2{
-    font-size: 28px;
-    text-align: center;
-  }
+    section .title h2{
+        font-size: 28px;
+        text-align: center;
+    }
 
-  .aboutMainContent {
-    height: auto !important;
-    gap: 0 !important;
-    margin: 80px auto 0;
-}
+    .aboutMainContent {
+        height: auto !important;
+        gap: 0 !important;
+        margin: 80px auto 0;
+    }
 
-  main .mainTitle {
-    width: 100% !important;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+    main .mainTitle {
+        width: 100% !important;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     .aboutMainContent{
         flex-wrap: wrap;

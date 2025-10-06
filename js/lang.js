@@ -1,38 +1,4 @@
-// document.addEventListener("DOMContentLoaded", () => {
-//   const langSelector = document.getElementById("langSelector");
-//   const languageList = document.getElementById("languageList");
-
-//   if (!langSelector || !languageList) return;
-
-//   // Toggle dropdown
-//   langSelector.addEventListener("click", (e) => {
-//     e.stopPropagation(); // prevent click from reaching window
-//     languageList.classList.toggle("show");
-//   });
-
-//   // Select language + close dropdown
-//   document.querySelectorAll("#languageList li").forEach(li => {
-//     li.addEventListener("click", (e) => {
-//       e.stopPropagation(); // stop click from bubbling to window
-//       const selectedLang = li.dataset.lang;
-
-//       // call your translation loader
-//       if (typeof loadLanguage === "function") {
-//         loadLanguage(selectedLang);
-//       }
-
-//       // close dropdown
-//       languageList.classList.remove("show");
-//     });
-//   });
-
-//   // Close if click outside
-//   window.addEventListener("click", (e) => {
-//     if (!langSelector.contains(e.target) && !languageList.contains(e.target)) {
-//       languageList.classList.remove("show");
-//     }
-//   });
-// });
+document.documentElement.setAttribute("dir", "rtl");
 
 document.addEventListener("DOMContentLoaded", () => {
   const langSelectors = document.querySelectorAll(".lang"); // select both language items

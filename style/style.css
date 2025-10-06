@@ -805,6 +805,8 @@ section{
     nav{
         overflow: hidden !important;
         height: 70px;
+        z-index: 4345 !important;
+        position: relative;
     }
 
     nav .logo{
@@ -844,7 +846,7 @@ section{
         margin: 30px auto 0 ;
     }
     
-     #langSelector i{
+    #langSelector i{
         width: fit-content;
         position: absolute !important;
         right: 30px !important;
@@ -867,11 +869,6 @@ section{
         z-index: 1000;
         direction: rtl !important;
     }
-
-    /* [der="rtl"] .lang-dropdown ul{
-        position: absolute;
-        right: 0;
-    } */
 
     .lang-dropdown ul li {
         display: flex; 
@@ -899,27 +896,22 @@ section{
         margin: 0 !important;
     }
 
-    .navList{
+    .navList {
         display: flex !important;
         justify-content: center;
         align-items: center;
-        position: absolute;
-        width: 100px;
+        width: 70px;
         height: 70px;
-        top: 78px !important;
-        right: 0px;
+        left: auto;
         border-left: 1px solid var(--gray15) !important;
         background-color: var(--orange95);
         z-index: 9999 !important;
-        /* border: 3px solid red; */
     }
 
-    [dir="rtl"] .navList{
-        right: auto;
-        left: 0px;
-        transform: rotateY(180deg)!important;
-        border-right: 1px solid var(--gray10) !important;
+    [dir="rtl"] .navList {
+        transform: rotateY(180deg);
     }
+
 
     .sidebar{
         display: block;
@@ -969,10 +961,6 @@ section{
         font-size: 20px;
     }
 
-    nav .navList img {
-        height: 35px;
-    }
-
     .backToTop{
         display: flex;
         justify-content: center;
@@ -1018,7 +1006,9 @@ section{
         justify-content: left;
         align-items: center;
         width: fit-content !important;
+        height: fit-content !important;
         margin: 0 auto;
+        line-height: 28px;
     }
 
     .mainTitle h1{
