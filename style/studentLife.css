@@ -123,11 +123,8 @@ html, body {
         width: 100%;
     }
 
-    [dir="ltr"] .navList{
-        right: 18px !important;
-    }
-
     [dir="rtl"] .navList{
+        right: 18px !important;
         left: 18px !important;
         border-right: none !important;
     }
@@ -153,10 +150,6 @@ html, body {
 
     .card .activityImg img{
         height: 65px;
-    }
-
-    .bottom{
-        top: 137px;
     }
 
     .card .description{

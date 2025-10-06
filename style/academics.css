@@ -105,14 +105,14 @@
 .classCard .classImg{
     position: absolute;
     top: 30px;
-    left: 30px;
-    width: 300px;
+    left: 9% !important;
+    width: 100% !important;
     height: 220px;
     z-index: 333;
 }
 
 .classCard .classImg img{
-    width: 300px;
+    width: 100% !important;
     height: 220px;
     z-index: 333;
 }
@@ -131,6 +131,7 @@
     color: var(--gray20);
 }
 
+
 .roomsContainer{
     width: 90%;
 }
@@ -141,7 +142,7 @@
     align-items: center;
     justify-content: end;
     height: 300px;
-    width: 90% !important;
+    width: 100% !important;
     box-sizing: border-box;
     padding: 20px;
     padding-bottom: 35px;

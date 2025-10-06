@@ -1163,7 +1163,8 @@ section{
     }
 
     footer{
-        height: 870px !important;
+        max-height: 1000px;
+        height: 900px !important;
         width: 95% !important;
         padding: 0 !important;
         display: flex;
